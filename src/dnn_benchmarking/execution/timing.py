@@ -336,6 +336,10 @@ def create_gpu_timer(
 GpuTimer = HipGpuTimer
 
 
+class StallFallbackError(RuntimeError):
+    """Raised when stalled timing cannot produce a valid sample."""
+
+
 class StalledRegionTimer:
     """Stage a measured region behind a stalled queue.
 
@@ -388,7 +392,10 @@ class StalledRegionTimer:
             ``(host_submit_ms, kernel_ms)``: host submission cost and the
             gap-free GPU event span.
         """
-        self._gate.arm(self._stream)
+        try:
+            self._gate.arm(self._stream)
+        except RuntimeError as e:
+            raise StallFallbackError(f"stall gate could not arm: {e}") from e
         try:
             self._start.record(self._stream)
             t0 = time.perf_counter()
@@ -410,6 +417,8 @@ class StalledRegionTimer:
             raise
         self._gate.release()
         self._stop.synchronize()
+        if self._gate.timed_out():
+            raise StallFallbackError("stall watchdog invalidated the measurement")
         return (t1 - t0) * 1000.0, float(self._start.elapsed_time(self._stop))
 
 

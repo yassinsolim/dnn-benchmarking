@@ -27,7 +27,7 @@ from ..config.benchmark_config import (
 )
 from ..execution.buffer_manager import BufferManager, generate_input_data
 from ..execution.executor import Executor
-from ..execution.timing import Timer
+from ..execution.timing import StallFallbackError, Timer
 from ..metrics import (
     CpuTimeProbe,
     GpuSmiProbe,
@@ -72,6 +72,17 @@ class _TimedPytorchRow:
 
     result: ProviderEngineResult
     outputs: Optional[Dict[int, ReferenceOutput]]
+
+
+_STALL_FALLBACK_WARNING = (
+    "Stall-gated timing failed; every engine was remeasured without stalling."
+)
+
+
+def _mark_stall_fallback(result: GraphResult) -> GraphResult:
+    for row in result.results:
+        row.warnings = [*(row.warnings or []), _STALL_FALLBACK_WARNING]
+    return result
 
 
 def _output_node_types(graph_json: Dict[str, Any]) -> Dict[int, str]:
@@ -487,6 +498,7 @@ def _run_timed_pytorch_row(
     analytical_flops_partial: bool,
     analytical_io_bytes: Optional[int],
     role: Literal["engine", "reference"] = "reference",
+    allow_staging: bool = True,
 ) -> _TimedPytorchRow:
     """Run PyTorch once as a timed suite row.
 
@@ -544,7 +556,9 @@ def _run_timed_pytorch_row(
                 if cpu_time_probe is not None:
                     cpu_time_probe.__enter__()
                 try:
-                    bench_result = executor.benchmark(tensors, graph_name=graph_name)
+                    bench_result = executor.benchmark(
+                        tensors, graph_name=graph_name, allow_staging=allow_staging
+                    )
                 finally:
                     if cpu_time_probe is not None:
                         cpu_time_probe.__exit__(None, None, None)
@@ -594,6 +608,8 @@ def _run_timed_pytorch_row(
                 )
             result.status = "success"
 
+        except StallFallbackError:
+            raise
         except UnsupportedGraphError as e:
             msg = str(e)
             if strict_selection:
@@ -630,6 +646,8 @@ def run_graph_all_providers(
     config: SuiteConfig,
     handle: Any,
     reporter: Optional[Reporter] = None,
+    _allow_staging: bool = True,
+    _engine_ids: Optional[List[int]] = None,
 ) -> GraphResult:
     """Run a single graph against every engine the backend ranks for it.
 
@@ -654,7 +672,9 @@ def run_graph_all_providers(
 
     validation_requested = config.validation.enabled
 
-    if config.engine_filter is not None:
+    if _engine_ids is not None:
+        engine_ids = _engine_ids
+    elif config.engine_filter is not None:
         # Explicit --engine is a selection, not a post-discovery filter. Keep the
         # caller's order so per-engine plugin paths are deterministic.
         engine_ids = list(config.engine_filter)
@@ -771,17 +791,32 @@ def run_graph_all_providers(
     ):
         if reporter is not None:
             reporter.print_engine_start("pytorch reference")
-        timed_reference = _run_timed_pytorch_row(
-            graph_path=graph_path,
-            graph_json=graph_json,
-            graph_name=graph_name,
-            tensor_infos=tensor_infos,
-            config=config,
-            input_data=graph_input_data,
-            analytical_flops=analytical_flops,
-            analytical_flops_partial=analytical_flops_partial,
-            analytical_io_bytes=analytical_io_bytes,
-        )
+        try:
+            timed_reference = _run_timed_pytorch_row(
+                graph_path=graph_path,
+                graph_json=graph_json,
+                graph_name=graph_name,
+                tensor_infos=tensor_infos,
+                config=config,
+                input_data=graph_input_data,
+                analytical_flops=analytical_flops,
+                analytical_flops_partial=analytical_flops_partial,
+                analytical_io_bytes=analytical_io_bytes,
+                allow_staging=_allow_staging,
+            )
+        except StallFallbackError:
+            return _mark_stall_fallback(
+                run_graph_all_providers(
+                    graph_path,
+                    graph_json,
+                    tensor_infos,
+                    config,
+                    handle,
+                    reporter,
+                    _allow_staging=False,
+                    _engine_ids=engine_ids,
+                )
+            )
         reference_outputs = timed_reference.outputs
         if reporter is not None:
             reporter.print_engine_result(timed_reference.result)
@@ -847,25 +882,40 @@ def run_graph_all_providers(
             if reporter is not None:
                 reporter.print_engine_start(engine_name)
 
-            pe_result = run_single_provider_engine(
-                graph_path=graph_path,
-                graph_json_str=graph_json_str,
-                graph_name=graph_name,
-                tensor_infos=tensor_infos,
-                config=config,
-                handle=engine_handle,
-                provider=engine_name,
-                engine_id=engine_id,
-                plugin_path=engine_plugin_path,
-                reference_outputs=reference_outputs,
-                reference_error=reference_error,
-                input_data=graph_input_data,
-                validation_requested=validation_requested,
-                graph_json=graph_json,
-                analytical_flops=analytical_flops,
-                analytical_flops_partial=analytical_flops_partial,
-                analytical_io_bytes=analytical_io_bytes,
-            )
+            try:
+                pe_result = run_single_provider_engine(
+                    graph_path=graph_path,
+                    graph_json_str=graph_json_str,
+                    graph_name=graph_name,
+                    tensor_infos=tensor_infos,
+                    config=config,
+                    handle=engine_handle,
+                    provider=engine_name,
+                    engine_id=engine_id,
+                    plugin_path=engine_plugin_path,
+                    reference_outputs=reference_outputs,
+                    reference_error=reference_error,
+                    input_data=graph_input_data,
+                    validation_requested=validation_requested,
+                    graph_json=graph_json,
+                    analytical_flops=analytical_flops,
+                    analytical_flops_partial=analytical_flops_partial,
+                    analytical_io_bytes=analytical_io_bytes,
+                    allow_staging=_allow_staging,
+                )
+            except StallFallbackError:
+                return _mark_stall_fallback(
+                    run_graph_all_providers(
+                        graph_path,
+                        graph_json,
+                        tensor_infos,
+                        config,
+                        handle,
+                        reporter,
+                        _allow_staging=False,
+                        _engine_ids=engine_ids,
+                    )
+                )
         pe_result.elapsed_time_ms = t.elapsed_ms
         if engine_plugin_path is not None:
             pe_result.plugin_path = str(engine_plugin_path)
@@ -968,18 +1018,34 @@ def run_graph_pytorch_backend(
 
     if reporter is not None:
         reporter.print_engine_start(provider)
-    row = _run_timed_pytorch_row(
-        graph_path=graph_path,
-        graph_json=graph_json,
-        graph_name=graph_name,
-        tensor_infos=tensor_infos,
-        config=config,
-        input_data=graph_input_data,
-        analytical_flops=analytical_flops,
-        analytical_flops_partial=analytical_flops_partial,
-        analytical_io_bytes=analytical_io_bytes,
-        role="engine",
-    ).result
+    try:
+        row = _run_timed_pytorch_row(
+            graph_path=graph_path,
+            graph_json=graph_json,
+            graph_name=graph_name,
+            tensor_infos=tensor_infos,
+            config=config,
+            input_data=graph_input_data,
+            analytical_flops=analytical_flops,
+            analytical_flops_partial=analytical_flops_partial,
+            analytical_io_bytes=analytical_io_bytes,
+            role="engine",
+        ).result
+    except StallFallbackError:
+        row = _run_timed_pytorch_row(
+            graph_path=graph_path,
+            graph_json=graph_json,
+            graph_name=graph_name,
+            tensor_infos=tensor_infos,
+            config=config,
+            input_data=graph_input_data,
+            analytical_flops=analytical_flops,
+            analytical_flops_partial=analytical_flops_partial,
+            analytical_io_bytes=analytical_io_bytes,
+            role="engine",
+            allow_staging=False,
+        ).result
+        row.warnings = [*(row.warnings or []), _STALL_FALLBACK_WARNING]
     if reporter is not None:
         reporter.print_engine_result(row)
 
@@ -1237,6 +1303,7 @@ def run_single_provider_engine(
     analytical_flops: Optional[int] = None,
     analytical_flops_partial: bool = False,
     analytical_io_bytes: Optional[int] = None,
+    allow_staging: bool = True,
 ) -> ProviderEngineResult:
     """Execute a single engine for a graph (single attempt)."""
     # Initialise the result conservatively as an error and mutate fields as
@@ -1288,7 +1355,10 @@ def run_single_provider_engine(
                 cpu_time_probe.__enter__()
             try:
                 bench_result = executor.benchmark(
-                    handle, variant_pack, graph_name=graph_name
+                    handle,
+                    variant_pack,
+                    graph_name=graph_name,
+                    allow_staging=allow_staging,
                 )
             finally:
                 if cpu_time_probe is not None:
@@ -1409,6 +1479,8 @@ def run_single_provider_engine(
         result.status = "success"
         return result
 
+    except StallFallbackError:
+        raise
     except UnsupportedGraphError as e:
         result.cpu_build_time_ms = None
         result.gpu_kernel_stats = None

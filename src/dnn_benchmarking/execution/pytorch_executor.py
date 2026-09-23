@@ -20,6 +20,7 @@ from . import pytorch_ops
 from .timing import (
     GpuTimerInterface,
     HipGpuTimer,
+    StallFallbackError,
     StalledRegionTimer,
     Timer,
     _is_staged_hip_available,
@@ -156,6 +157,7 @@ class PyTorchCudaExecutor:
         self,
         tensors: Dict[int, torch.Tensor],
         graph_name: str = "",
+        allow_staging: bool = True,
     ) -> BenchmarkResult:
         """Run benchmark iterations and collect timing.
 
@@ -164,6 +166,7 @@ class PyTorchCudaExecutor:
         Args:
             tensors: Mapping of tensor UIDs to CUDA tensors.
             graph_name: Optional name/identifier for the graph being benchmarked.
+            allow_staging: Use stall-gated timing on supported ROCm devices.
 
         Returns:
             BenchmarkResult with E2E and kernel timings, plus metadata.
@@ -182,15 +185,16 @@ class PyTorchCudaExecutor:
         # torch and capability mismatches fall back to direct GPU-event timing.
         staged_timer: Optional[StalledRegionTimer] = None
         if (
-            self._collect_kernel_timing
+            allow_staging
+            and self._collect_kernel_timing
             and self._resolve_timing_backend() is TimingBackendName.HIP
             and _is_staged_hip_available()
         ):
             with torch.cuda.device(self._device):
                 try:
                     staged_timer = StalledRegionTimer(self._timing_stream())
-                except RuntimeError:
-                    staged_timer = None
+                except RuntimeError as e:
+                    raise StallFallbackError(f"stall gate unavailable: {e}") from e
 
         if staged_timer is not None:
             return self._benchmark_staged(staged_timer, tensors, graph_name)

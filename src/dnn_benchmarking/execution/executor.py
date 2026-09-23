@@ -17,6 +17,7 @@ from ..reporting.statistics import BenchmarkMetadata, BenchmarkResult
 from .timing import (
     GpuTimerInterface,
     HipGpuTimer,
+    StallFallbackError,
     StalledRegionTimer,
     Timer,
     _is_staged_hip_available,
@@ -458,6 +459,7 @@ class Executor:
         handle: Any,
         variant_pack: Dict[int, int],
         graph_name: str = "",
+        allow_staging: bool = True,
     ) -> BenchmarkResult:
         """Run benchmark iterations and collect timing.
 
@@ -467,6 +469,7 @@ class Executor:
             handle: hipdnn.Handle instance.
             variant_pack: Mapping of tensor UIDs to device pointers.
             graph_name: Optional name/identifier for the graph being benchmarked.
+            allow_staging: Use stall-gated timing when the device supports it.
 
         Returns:
             BenchmarkResult with E2E and optional kernel timings, plus metadata.
@@ -488,11 +491,11 @@ class Executor:
         # submission cost; available only on HIP devices supporting
         # stream-wait-value. Falls back to the non-staged loop otherwise.
         staged_timer: Optional[StalledRegionTimer] = None
-        if self._collect_kernel_timing and _is_staged_hip_available():
+        if allow_staging and self._collect_kernel_timing and _is_staged_hip_available():
             try:
                 staged_timer = StalledRegionTimer(stream)
-            except RuntimeError:
-                staged_timer = None
+            except RuntimeError as e:
+                raise StallFallbackError(f"stall gate unavailable: {e}") from e
 
         if staged_timer is not None:
             timing_backend_name = TimingBackendName.HIP.value

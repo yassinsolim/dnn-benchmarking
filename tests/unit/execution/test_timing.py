@@ -419,6 +419,9 @@ class TestStalledRegionTimer:
             def release(self) -> None:
                 calls.append(("release",))
 
+            def timed_out(self) -> bool:
+                return False
+
         class FakeHipdnn:
             @staticmethod
             def hip_get_device_count() -> int:
@@ -473,6 +476,35 @@ class TestStalledRegionTimer:
             ("elapsed", start, stop),
         ]
         assert ("device_sync",) not in calls
+
+    def test_measure_rejects_watchdog_invalidated_timing(self, monkeypatch) -> None:
+        calls: list = []
+        events: list = []
+        self._install_fake(monkeypatch, calls, events)
+        timer = StalledRegionTimer(stream=7)
+        timer._gate.timed_out = lambda: True
+
+        with pytest.raises(
+            timing_module.StallFallbackError, match="watchdog invalidated"
+        ):
+            timer.measure(lambda: calls.append(("enqueue",)))
+
+        assert not any(call[0] == "elapsed" for call in calls)
+
+    def test_measure_requests_fallback_when_gate_cannot_arm(self, monkeypatch) -> None:
+        calls: list = []
+        events: list = []
+        self._install_fake(monkeypatch, calls, events)
+        timer = StalledRegionTimer(stream=7)
+
+        def fail_arm(stream: int) -> None:
+            raise RuntimeError("unsupported stream")
+
+        timer._gate.arm = fail_arm
+        with pytest.raises(timing_module.StallFallbackError, match="could not arm"):
+            timer.measure(lambda: calls.append(("enqueue",)))
+
+        assert not calls
 
     def test_measure_releases_gate_when_enqueue_raises(self, monkeypatch) -> None:
         calls: list = []

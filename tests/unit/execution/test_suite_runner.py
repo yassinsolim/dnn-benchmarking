@@ -33,6 +33,7 @@ from dnn_benchmarking.config.benchmark_config import (
     ValidationConfig,
 )
 from dnn_benchmarking.common.exceptions import ExecutionError, UnsupportedGraphError
+from dnn_benchmarking.execution.timing import StallFallbackError
 from dnn_benchmarking.reporting.statistics import (
     BenchmarkMetadata,
     BenchmarkResult,
@@ -193,6 +194,62 @@ class TestRunGraphAllProviders:
             "engine_1",
             "engine_2",
         ]
+
+    @patch("dnn_benchmarking.execution.suite_runner._resolve_engine_name")
+    @patch("dnn_benchmarking.execution.suite_runner._get_reference_provider")
+    @patch("dnn_benchmarking.execution.suite_runner.Executor")
+    @patch("dnn_benchmarking.execution.suite_runner.BufferManager")
+    def test_stall_timeout_restarts_every_engine_unstalled(
+        self,
+        mock_bm_cls,
+        mock_exec_cls,
+        mock_get_ref,
+        mock_resolve_name,
+    ):
+        mock_resolve_name.side_effect = lambda eid: f"engine_{eid}"
+        mock_get_ref.return_value = None
+        mock_bm_cls.return_value = _make_bm_mock()
+        benchmark_calls: list[tuple[int, bool]] = []
+        created = 0
+
+        def make_executor(*args, **kwargs):
+            nonlocal created
+            executor = MagicMock()
+            executor.init_time_ms = 1.0
+            if created == 0:
+                executor.discover_engines.return_value = [1, 2]
+            else:
+                engine_id = kwargs["config"].engine_id
+
+                def benchmark(*args, allow_staging=True, **kwargs):
+                    benchmark_calls.append((engine_id, allow_staging))
+                    if engine_id == 2 and allow_staging:
+                        raise StallFallbackError("timed out")
+                    return BenchmarkResult(
+                        host_timings=[1.0],
+                        kernel_timings=[0.5],
+                        metadata=BenchmarkMetadata(timing_backend="hip"),
+                    )
+
+                executor.benchmark.side_effect = benchmark
+            created += 1
+            return executor
+
+        mock_exec_cls.side_effect = make_executor
+
+        result = run_graph_all_providers(
+            graph_path=Path("test.json"),
+            graph_json=_make_graph_json(),
+            tensor_infos=[_make_tensor_info(1)],
+            config=_make_config(),
+            handle=MagicMock(),
+        )
+
+        assert [row.status for row in result.results] == ["success", "success"]
+        assert benchmark_calls == [(1, True), (2, True), (1, False), (2, False)]
+        assert all(
+            "remeasured without stalling" in row.warnings[0] for row in result.results
+        )
 
     @patch("dnn_benchmarking.execution.suite_runner._resolve_engine_name")
     @patch("dnn_benchmarking.execution.suite_runner._get_reference_provider")
@@ -1610,6 +1667,25 @@ class TestRunGraphPytorchBackend:
         assert result.engine_ids == [0]
         assert [r.provider for r in result.results] == ["pytorch"]
         assert result.results[0].status == "success"
+
+    @patch("dnn_benchmarking.execution.suite_runner._run_timed_pytorch_row")
+    def test_stall_timeout_restarts_pytorch_row_unstalled(self, mock_timed_row):
+        row = ProviderEngineResult(provider="pytorch", engine_id=0, status="success")
+        mock_timed_row.side_effect = [
+            StallFallbackError("timed out"),
+            MagicMock(result=row, outputs=None),
+        ]
+
+        result = run_graph_pytorch_backend(
+            graph_path=Path("test.json"),
+            graph_json=_make_graph_json(),
+            tensor_infos=[_make_tensor_info(1)],
+            config=_make_config(),
+        )
+
+        assert mock_timed_row.call_count == 2
+        assert mock_timed_row.call_args_list[1].kwargs["allow_staging"] is False
+        assert "remeasured without stalling" in result.results[0].warnings[0]
 
     @patch("dnn_benchmarking.execution.suite_runner.generate_input_data")
     @patch("dnn_benchmarking.execution.suite_runner._run_timed_pytorch_row")

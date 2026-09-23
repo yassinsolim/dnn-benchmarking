@@ -13,6 +13,11 @@ timing and synchronized E2E timing use direct HIP runtime events exposed by
 `hipdnn_frontend`; PyTorch is only needed for the optional PyTorch executor and
 reference validation.
 
+On supported AMD GPUs, benchmark comparisons use a stall gate to exclude host
+submission gaps from HIP event timing. If the watchdog releases that gate, the
+tool discards the partial comparison and reruns every engine without stalling.
+This avoids comparing device-only and unstalled samples.
+
 The `--backend pytorch` executor also runs on NVIDIA GPUs with a CUDA PyTorch
 build, where it times kernels with `torch.cuda` events. Because the hipDNN and
 PyTorch backends share one suite execution path and emit the same
