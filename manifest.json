@@ -1,0 +1,1759 @@
+[
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d111_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d111_causal_varlen.json",
+  "original_sha256": "b053dfe66aab6aa516201c6b15a951eedf75ebdf58314f8c94ba913808a66025",
+  "fixed_sha256": "ab4d965983ab5af3b5e914b0d3999a913f535809c452156b5499f423ac01f43b"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d128_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d128_causal_varlen.json",
+  "original_sha256": "ded2b558f25354af7343011b3de85755208a419862ff3b06f21d9bc278bdf601",
+  "fixed_sha256": "9e64c02a23384cfe820e8cdd2ba7b5ab125b1d8ee0b1ab9698e51ba1d071f866"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d160_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d160_causal_varlen.json",
+  "original_sha256": "420dd9a2621c359c099e7bf63dd1bd1dd4e00879911c518ce1b9730bf2d403a5",
+  "fixed_sha256": "296f192b827dd7570341a2913a29045463dd79edf2503a4af69a5a11d44658c8"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d192_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d192_causal_varlen.json",
+  "original_sha256": "c537dea6138450b6f6145bd297782375dc563f477d9b311c6b44b11b439552de",
+  "fixed_sha256": "cfc110f8cee3017146c43a8a966138924cee19c3343de56ecf5901b5fd11ae8e"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d224_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d224_causal_varlen.json",
+  "original_sha256": "7a036fd794b15e94a8897d3f59566f09b5999a2f582900f3639ac9b6383ea3b1",
+  "fixed_sha256": "279042dcd0555a34c2439ee5fe4fcb7d69851f0d71974a12f4c3347d4ef3b94c"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d256_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d256_causal_varlen.json",
+  "original_sha256": "28d44e0d47df01f64825f2f0cb84e0674824e5091d9c3739d314d8a725edd716",
+  "fixed_sha256": "2bbd1a81ff0d9311a05eafc83d9614a3b49a29c00062b288fe1482951d4ffdd0"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d32_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d32_causal_varlen.json",
+  "original_sha256": "76a7ee1579fb1dbb131cfd865c9bc2246ce719cbbe7a0c1c61610c12bd816720",
+  "fixed_sha256": "b99409ae073194e73773dfa9f4c9ae86ea58e2833df0e30379917f27a8aab411"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d40_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d40_causal_varlen.json",
+  "original_sha256": "9bfaf4fd0ac1874c0ba5885550518a60cfda0bd6036ece87b13a9e283f8e3639",
+  "fixed_sha256": "9f482d70ef2f62a9c150f095a0442b5fc65f093a5e2e6aad37f976e69f59ba07"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d59_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d59_causal_varlen.json",
+  "original_sha256": "6f1c171d759c33691c64bc9a051eaa949ea1d1701528220e537586c4e1c0791b",
+  "fixed_sha256": "30072f8f8a66bb7b42e085b0858014444713d13ad2dfe3e7d2b37663f461e257"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d64_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d64_causal_varlen.json",
+  "original_sha256": "d71b4d6d3e5105bb3e8d368cac65a48fdca20bd6f508df568dad5ebb39dfdb07",
+  "fixed_sha256": "ffa578dff9606de937e1e147ef9156dd9f88f475bacc20d93e7e2e0bd937bc1b"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/bf16_b4_hq9_kv9_sq1_skv147_d96_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/bf16_b4_hq9_kv9_sq1_skv147_d96_causal_varlen.json",
+  "original_sha256": "9ccbd9d9e88c69d294ee17529062b73a768ea8369e6f13dab340fa25368d1df7",
+  "fixed_sha256": "c2b9eec73dc16c649ecdd91825d34a1b8b4399ac8abaa27dea61cd81ee2e6afc"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d111_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d111_causal_varlen.json",
+  "original_sha256": "8af42ce7b806ff7640e05d677bc81b2011db321cecedcde6042bb0cced37b6ba",
+  "fixed_sha256": "cca7137971f52e0e185cd48e32bf8ce147529736f51dcb4b02a388494a74f595"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d128_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d128_causal_varlen.json",
+  "original_sha256": "b61b07b1335ab8d9ec1b7d51619f8c73dd371339a47a815994c1e81f123497e4",
+  "fixed_sha256": "cb274f0e092f13d7362e576cf00d94a6dec65956ad8c9cd90fe1412243537e12"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d160_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d160_causal_varlen.json",
+  "original_sha256": "a747bcf8d1bc842c4e7f2060289acf9f0a8cb4b21d955aef648b37ece3b1f02e",
+  "fixed_sha256": "71bbff08de7c10307adb9e51cf78d8f0be1af27655b41680a9acc449724e1d58"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d192_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d192_causal_varlen.json",
+  "original_sha256": "58b028eda56babb3feb7000b72eba2718246ad84ddcc1a9c2fbec58dec409d7a",
+  "fixed_sha256": "9b9e5691f07a215af4dd3943c8d11e497d43a2755141373e14750f201403d355"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d224_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d224_causal_varlen.json",
+  "original_sha256": "6d21349ac3ed2fda08a3eeaff0e40f5cf0af27d176afa3f66e84c420e2f1a5dc",
+  "fixed_sha256": "da9f9fba059bc99368c9c1037be1973fe854b8dfcdcf9e27c2131cc29fce77d8"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d256_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d256_causal_varlen.json",
+  "original_sha256": "cf925250164bebe4ca92d00bc593fd2120bfe9af891fea38fbb67489454f04cf",
+  "fixed_sha256": "e8a5b5ec494ed0b0896ea33016d3067e29bdf84f45913f283d20843360d49179"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d32_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d32_causal_varlen.json",
+  "original_sha256": "a83a174732f7bfdb5f6a2c7f27f8683af98673ce21f2da8e7972ea514b0414a4",
+  "fixed_sha256": "1849bde880a86f310e394a9b953bc4e9f00153915babe0e091b249fdf8d0949a"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d40_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d40_causal_varlen.json",
+  "original_sha256": "5d70d22b9413d5964e89ee3cfe48a9220fab0062cedf843acc651f3990a93507",
+  "fixed_sha256": "f671b9ba17247658e23bf6be1060d223d4ca39108b7ec9fe22ae0b4903b7406c"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d59_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d59_causal_varlen.json",
+  "original_sha256": "433c9776c4f2e44116682e14f9c0eb1fb540a6ca11121000a0041b44bdd599ad",
+  "fixed_sha256": "90ef9eea0123cede18bac9773bcc4ed7cba214a10fcef71bc6665b92beae9095"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d64_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d64_causal_varlen.json",
+  "original_sha256": "11609a6b1b1f7a258a0738c690a02f607e3fe57855570e739b2562854b28b121",
+  "fixed_sha256": "ab74256379f7814a9f966ea24f572d49f1a90cbad48987e0c756c7e5fd24010a"
+ },
+ {
+  "tarball": "Workloads/microbench/aiter.tar.gz",
+  "member": "sdpa/fp16_b4_hq9_kv9_sq1_skv147_d96_causal_varlen.json",
+  "fixed_file": "aiter/sdpa/fp16_b4_hq9_kv9_sq1_skv147_d96_causal_varlen.json",
+  "original_sha256": "6fea6a987699d284e4a535d2700a031f9e7169d8849140ae90a253370a707c67",
+  "fixed_sha256": "ee6fee8539e9c43aabdce0a0ed3816a3391d3980c6fc6f8b2648c76a38595c1b"
+ },
+ {
+  "tarball": "Workloads/headline/attn.tar.gz",
+  "member": "attn/fwd/gpt-oss-120b__bf16_swa_sink_decode_bf16_idx136_b16_hq64_kv8_sq1_skv4096_d64v64_swin128.json",
+  "fixed_file": "attn/attn/fwd/gpt-oss-120b__bf16_swa_sink_decode_bf16_idx136_b16_hq64_kv8_sq1_skv4096_d64v64_swin128.json",
+  "original_sha256": "17fbbd780c9176a5cfac2667e287432b126b0be61bec7204ccad19b2b0281542",
+  "fixed_sha256": "985ae6fedc546e281eaef3b5a9b95acc8c7b0bc595c77ec05c530c2005ff352a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx6_b1_hq9_kv9_dqk128_dvo128_sq1_skv62208_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx6_b1_hq9_kv9_dqk128_dvo128_sq1_skv62208_causal.json",
+  "original_sha256": "afdf6d60b02cd9a3c59a536fdff48ab95b6909026baca523f64af74f2d093b40",
+  "fixed_sha256": "d06a1e54f277c5a1be31c74153951f5fc25f310c45d03662bf72a2f7dbc7489b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx7_b1_hq9_kv9_dqk128_dvo128_sq2_skv62208_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx7_b1_hq9_kv9_dqk128_dvo128_sq2_skv62208_causal.json",
+  "original_sha256": "beb05ea4cc43b06e27bc0354385544af4531892ad3b6d617211d849dfc6e9499",
+  "fixed_sha256": "7e51ab8de17fba5e9ea67021be7ccc4af991ed2b8cc68fc75cdc82b5643514a6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx8_b1_hq9_kv9_dqk128_dvo128_sq3_skv62208_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx8_b1_hq9_kv9_dqk128_dvo128_sq3_skv62208_causal.json",
+  "original_sha256": "4a15782c3132187266e3ce06ffc1a449a734dcc362a60e61289cb6b9ca90ae23",
+  "fixed_sha256": "7d3d444b7d4097555218ca4c441e15c22cdc24766694804c931fad870e964283"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx9_b1_hq9_kv9_dqk128_dvo128_sq4_skv62208_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/auto_regressive_dit/ar_dit__generation_idx9_b1_hq9_kv9_dqk128_dvo128_sq4_skv62208_causal.json",
+  "original_sha256": "ec58a6e8f0a634e939a0d602595aa868b8cb9b6d683aab77040127e12d01ed20",
+  "fixed_sha256": "e6342879eb4311f33461f93052bd4bd026af2a774430e98c9a2585c9918aaf01"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx30_b1_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx30_b1_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "c0959e15a27682ec6157519fa58eee43f015be06c96f401f783a4d7cd2a2c1ee",
+  "fixed_sha256": "782f86b04ab280ad65e74f3b629496681439aa00d2e15772b4d31a2cc241d7f1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx31_b128_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx31_b128_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "c958fc18903e1cd674ea42767aed91e226af0fc041cec5ae83ee9217ff60efb9",
+  "fixed_sha256": "53d22f340af97cdfa728edfd697ab80f59451a2c6a97af6c0dda90c4a932d70b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx32_b1_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx32_b1_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "b67b8f0b09cfa799fdab06eaea57f9076bfb07c2250954a08332a5abff69d9a4",
+  "fixed_sha256": "fb3a69594223e31cca1152109562a21c340c23f53ca8c0cc6f422e273b4279c9"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx33_b128_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx33_b128_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "94bcaf90dde621dc11d8a06b0a3d4d3e1b645acbe3c183d93cb257e5aeedf4b5",
+  "fixed_sha256": "7baae8cd102b11a682a60361adc46f23436f99d278118375946e7a67bfa8a37c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx34_b1_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx34_b1_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "49409f618ecf72704876bc39475b2d00fa6cb10b78f0f4f8eab56239b04b7180",
+  "fixed_sha256": "206897bcc4c149e1db912e6396b58bbb27d62122747dcc222252c4bc06d6744f"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx35_b128_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx35_b128_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "0f395ffd8d9d28ced31b8cfd2d92c6e7935caaa6d168b55409c83c9c2bb4a128",
+  "fixed_sha256": "ac88cdcc5fa7f02922c48fa0836690583d127bea5f295cac0a87485d911575de"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx36_b1_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx36_b1_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "f7ea57ae3a9005f3c3bf6bc79b4b658e24ddb1aa56ef2b12af51b20a02526462",
+  "fixed_sha256": "0eb45348761a624f64778d9608425120f5ce2f3b23795ad7d004a71e8c368dc7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx37_b128_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp2__generation_idx37_b128_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "163f4b6259d26b582664c5a5046acd89b95af236c82cfbdec12bf76c19379c27",
+  "fixed_sha256": "812d32c3e725181799c7cac1ef3d38db05b427c20259bccb14c0ddfbc1daab9a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx44_b1_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx44_b1_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "5043ebba3ef4d6a32d6827d215b781487a4eaa88ff89cdd504542792cc4d91dd",
+  "fixed_sha256": "a227b852fc227c5b64aa51112e767001bc04200d5178bb2268a2b907d721aaf4"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx45_b128_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx45_b128_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "18b1bc5c7a6f25cf3a82bd2e80d1875ec93b73bad58064665332a05f519cfaf9",
+  "fixed_sha256": "213ac0228152722aeb4465a621516d510ae74477c430d6427d491cc780687d72"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx46_b1_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx46_b1_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "432638765688e183b4b312422181b02a0e201fd771a71eb0cbc592ee94d9873e",
+  "fixed_sha256": "42c29cd67cd848e70ccf503d8d40592710b48e204054a948437cf3ae09fb0eab"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx47_b128_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx47_b128_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "b9b5f400f7c857e66b3aaac5787f2d9cfcce78bf11952c80fbbaabdde2bc182a",
+  "fixed_sha256": "384f85cbaefa13a13c559ad87151d2673d60e9e7e669925dcfefec11b17a7210"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx48_b1_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx48_b1_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "59aef4ae486de23f084c0ed48765e7ccbed1bfb422f65d3ac175780f9ed04e07",
+  "fixed_sha256": "7de028e9a094b433efc709b7a90d0e690df31973964c03cca6d828d3c292a9fa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx49_b128_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx49_b128_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "095e28af0c07488cf12c56e28eee71d90f5c501b4264138b97ec3af6a6a7dd7a",
+  "fixed_sha256": "169976b2e832d6cc40205b837b5dd6c64f4c8c4220de64c4a4ecf92eca75b256"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx50_b1_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx50_b1_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "f7e92e3bde7edac6a3c2d6fc803984f1a27d68265acfffc4f956be0f2a9e1f94",
+  "fixed_sha256": "cd97045abb6649cb6ad1c7fe32219a20c97bb3140cc5505c50d2dfd10be9fd11"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx51_b128_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp4__generation_idx51_b128_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "22fd42f7232f57a57f7fe82627eaaefe8027e300e82c8351680cf85aafe79e6d",
+  "fixed_sha256": "4e982c55d85a93165ab521ad8e8f257f8515683b371ee08fdf86f25d81bf8021"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx58_b1_hq8_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx58_b1_hq8_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "3a34544dcc15f07ca891cf679f6337ad082461daf41f88fe2dcfe143f8e5f067",
+  "fixed_sha256": "caa72db7203d42826d9ee10846a7478a6ee6c63015f1e911963e57ffa9cf00eb"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx59_b128_hq8_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx59_b128_hq8_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "0ff648a1dbc3de79d1f50b0d2ed3bb313a6877ce3944f7635cef53165fa35d4b",
+  "fixed_sha256": "cbb4445510d05b874f441334b55aed432351e621ac8ccab6267cb5afc3f6b6fa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx60_b1_hq8_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx60_b1_hq8_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "6413acddc17e97a26ebeb90ec460a1a2dbf6c6c998eff5a0441c878da3765212",
+  "fixed_sha256": "8f63ebee16d58c1b3c4ea13d3d70defe91391bac3a7e870626b4bbb6b293c3de"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx61_b128_hq8_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx61_b128_hq8_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "99681074fc0131addaffd9bf2a22dc475226ed323f04c30a243c5b0b624330d3",
+  "fixed_sha256": "b4f4f9b3f085674cd4d07d7eb04c3a398e93970f64b46663dd2c1116fe909076"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx62_b1_hq8_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx62_b1_hq8_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "9804efa7d79ff791dfb95ca39d4c170291f9278a781a0d00973b5f44ee4aff05",
+  "fixed_sha256": "34e8079d2de1cbb6eebdd9dc3686322e11c298007dac85fbcd7859644d8e58c6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx63_b128_hq8_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx63_b128_hq8_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "364b281399026c3bce09ea3b83a0e670fc61ff429bdc4f315b4ad1c8a745c94f",
+  "fixed_sha256": "7dc278b2e5a7b0a5de9060af779641e2928599b2211c42deb68d9b6e6889c2a4"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx64_b1_hq8_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx64_b1_hq8_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "fc901a2fb1bc081ffa7e0732bec5572a232244b85d9b0ddc2a01e92eaee21a2a",
+  "fixed_sha256": "61388faea39594c3f07956b463c714747dc0dfcc650ae7dda7e402a451f1a2c9"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx65_b128_hq8_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash-tp8__generation_idx65_b128_hq8_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "81501e3de177aa48d3c497e7e20c2dd7a65cbc6e7586504bf2645b0049f69f0b",
+  "fixed_sha256": "6a2c43f31e224c73bccd58d299d8b5f4d1312b9fa274ea513e60415bf2a9cfe3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx16_b1_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx16_b1_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "13c1a52e7a48c932451abde26750542fbde121d28bedd8e20f1ad6657f31dc20",
+  "fixed_sha256": "11558bda23d3b1437e9e44c630387bdee0f92799cacae7b5f92c1e4bce246318"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx17_b128_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx17_b128_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "1cfbd9ecab21a28bea7abf0cdb0d961d93eb55a68cc2708b4c67b50f1cd0d718",
+  "fixed_sha256": "e676b13e34aff8503390c04045564cb136d585a9c3e967163c79d8fce6e20e43"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx18_b1_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx18_b1_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "a2570d37cd2ac8a7ba0372b33172886f54d70f354d42b86adedd66f7cea32e02",
+  "fixed_sha256": "2283bf10672f5fe29b01eed0aef6f3eb3c53cf6b748aa8e7732d92b245379ed3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx19_b128_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx19_b128_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "ffe9d4125a7327c38f9a81fb62d9802024e8f47942cc79c696ff018f3501865e",
+  "fixed_sha256": "52ae8ae256fe5bf1248f681324e3cbe86d27ebba8a60b338b8a51c8bad6b8d5d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx20_b1_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx20_b1_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "36bf55af43d3370550253106d6fcbd7d6a1cdfad8a1d70e63471d45ca4f034a9",
+  "fixed_sha256": "2d83f68950b980802c67abfbaa7b50955719469690f57b5845f76d0095840ae5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx21_b128_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx21_b128_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "81ea97080a198ab8eac3f8510f63eb62020ff7fff4dc728a0a164090af4862a9",
+  "fixed_sha256": "2b5515fe325f4f4e6867a661cdae623ee64a73efb7e249af0169211b516bb837"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx22_b1_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx22_b1_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "6aa5c6e3bc944a803a1568ee646ad813943ad0d7934b4df257c082aef001ed31",
+  "fixed_sha256": "3505039d6befa3e45e05582c8dccf982f5dce37a504186884b4db7dd84976235"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx23_b128_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_flash__generation_idx23_b128_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "32f95fc1fc294513bdd1970994ed70fa994d739b7265cc0b97f26f1b379098f3",
+  "fixed_sha256": "46f2581357e266d75652db829d8fe9fa19d1649c8df749c28bddce90b43679b5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx86_b1_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx86_b1_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "0a8610f512dcb62f3cce5ead55ca73e258f64eb5e0b5c907a779d39f58a83845",
+  "fixed_sha256": "e0caca80db0c3df9bbc3f221e9b894c7c46d9bbf57072a7c38192b5214f7cb0a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx87_b128_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx87_b128_hq64_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "fd94d3d7c69d04035503751067312d375784250d632f30e4a82b27c52c5fb5ee",
+  "fixed_sha256": "b3fe4c918a4863fabd0755b9939dcb1d13b7ceb00cf7ae8ceeaf54f3b7f03444"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx88_b1_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx88_b1_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "567380dd20d96075fe1944151c59700faa8049d280005e692bb5ff68d3d16072",
+  "fixed_sha256": "485081f1af1bb5e277cf4d94ff8cd4ae98fa4beb04b548a57a46cb7e6b2764b5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx89_b128_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx89_b128_hq64_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "bfd49094a161982042ba3445093cc373e060e9725e6e1b40a990c48f45845561",
+  "fixed_sha256": "7f2d528d64cf2f9b582318e632677f946e9af8f0c259769ec7a35d77e8fef2b0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx90_b1_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx90_b1_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "64d7bcf4ab95d3e3b4b31a8f4bb521d28cd31b884aa3631d519a6e2fb6f99b88",
+  "fixed_sha256": "16060a9bc2dec2b89339b43760207045187004f4e3524fa9c692965b1a4dee43"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx91_b128_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx91_b128_hq64_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "47168be6796ae1e6bffefdc2a1c6cfe3a21005406543518f1bba2aebf374cb6b",
+  "fixed_sha256": "b60b212228c9f248088eef0d8e2632a8c9d42780afafb21ad3b03363b09ead6a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx92_b1_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx92_b1_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "ab3987b49920ab9179da0bdb37a4ec2a1dbdf88b53c7247d679be6ad2409be08",
+  "fixed_sha256": "fcf12b31750378225beb6c82c6c3f2e3863c15e56b2778b86bb698c3dff20203"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx93_b128_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp2__generation_idx93_b128_hq64_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "66620390af5efe3e7cef5874483c8674bef66964340eeaa39789f111c48e44ca",
+  "fixed_sha256": "e1a6acc0164b4f607bb475c0811493164967fce061da81cf61c3e5237e5793b0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx100_b1_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx100_b1_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "4b241883331cd9d935187541dcd3679d09b2348c6568460f353d5889a79b6f26",
+  "fixed_sha256": "31a8059d2321961b40329ce61c3e0795a4cf7aa2a463d9d0f1b5f49baa91bbf6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx101_b128_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx101_b128_hq32_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "5a8b43282ced9319e46e4fcc6a45a03d689e2785b2dd262daa76ad6cf3246bfb",
+  "fixed_sha256": "038925315dbc533fa427ea131d871ddbdfe98ce011e344b66db2aa37c7ad6690"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx102_b1_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx102_b1_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "e1c89a47cfcbb44a074a661b1bc049684cbc7adaa6f7a16328767e0581930d37",
+  "fixed_sha256": "b8ec140cbc9164ec1ee3ece562bd7d1440d5b5b200f6a0ee7860fdb215cceafa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx103_b128_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx103_b128_hq32_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "8da33cecebfd8be7a7fe0bf25d03d567d15b3098d560163858e81b7e760bfb8c",
+  "fixed_sha256": "b690a250c5e64d603317380d480491830664d5bb00fe1c6ea76160a5f640151d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx104_b1_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx104_b1_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "d5061df9e2ecbfb7cf5f086b70f4a46c05198b02f4407f11cb4c8e94dec3cd39",
+  "fixed_sha256": "de52821db6449cc09d6a806b943e46765f5186cb4900e41e6b36e46874af5df9"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx105_b128_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx105_b128_hq32_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "911abd90681bb3eb26a8cc43b2cd6d6e76dfa505698fa0dfb6d31b14a4f94854",
+  "fixed_sha256": "0ff8525a5fef9736bac8057f4d73b965bf788350585fbf83c96165f2efb26249"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx106_b1_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx106_b1_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "6131f066809d880246317c5b293af816729b2d5b1c2b4950fb0c383c303d3c4e",
+  "fixed_sha256": "16f86e951d147147cdaabf6d51690eed038cafc6baef9b5602a7f6c6b2b76688"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx107_b128_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp4__generation_idx107_b128_hq32_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "b10ef9a252c3c9453259734314f0192a2f59effadd0510b3d63b20a55dfb16ff",
+  "fixed_sha256": "31e142fbfb0c0a6bf93137299fcc16e9d08370dce41b5f576f6a959ff3baef0e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx114_b1_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx114_b1_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "cf58f2db5c4dbe1cdfd0dba0d01f6615456993be93a609f7c624a592dbf19615",
+  "fixed_sha256": "12c9d36ebf7c2d0bec96e0dc28f80860dcb19233d0b64f60a239ec98ffe065f0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx115_b128_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx115_b128_hq16_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "ea2391ddaabe0f9c6be22ff1fd2bff74ef5435f0b4a300e091e0f0069a00e6d9",
+  "fixed_sha256": "41f1d81f0f9ed1df20cb806ef48c072dc7d40cdd99a7d26238de80ba78003fbf"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx116_b1_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx116_b1_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "8ea8ce174ea360bdc09cadb2338f14d88f2f2b0d9009d2950bb190c18473ef61",
+  "fixed_sha256": "c3eac1a40340b1b322d79ab1c00cc87388d05f633cd4d1a80f2abf8a365909cd"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx117_b128_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx117_b128_hq16_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "c1cb4ed0f53c33dcd1e1ced93bdea0f6622fe6da9dee8d56ab409cbc37bb4720",
+  "fixed_sha256": "07ec51db1a12df9589343fe0bcb8c111c657cecbe332910dcd3d032d0d95232e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx118_b1_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx118_b1_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "90c315d09c35dcf7cc42f1289e9c2f754ceb3258e6510ec08eb4ffcdfbef73ce",
+  "fixed_sha256": "e87a8d3af42773a02ec2b1a185f252d98495ff919d4f908d9fae34f5f7ffe21d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx119_b128_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx119_b128_hq16_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "eda3ebeb3300af01f7e62884965903bdbe6a445d436cc0c5b60f71ab9859092e",
+  "fixed_sha256": "d1e3e733e5246992818ca2f392d63539586675d1b165ecb3e6ae5d98923da809"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx120_b1_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx120_b1_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "6712794357e688ea210d774def1605a08fc4c0c1797156a67060a43afa514929",
+  "fixed_sha256": "b662fa6b758804f486bed2507f1027e91b83975dc4952ed3bec2c3e7ffe8bac3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx121_b128_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro-tp8__generation_idx121_b128_hq16_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "f7a42c714d97d6fe3c0312ff0e922ae99e854c43a7a032b8f007d330d733bc2d",
+  "fixed_sha256": "33e6217901e405c1c57b2ba1b131089a71f31d36a797cbb6b6676466dbd842a0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx72_b1_hq128_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx72_b1_hq128_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "cb94190f43ffb2f15a4588d6fb37a754cf2640a3b245a3b35825e19cc18a2282",
+  "fixed_sha256": "3e2420e51b04c17ce507fdff20a6f655bde2d18fb1bf3d2edb9e6760e326e320"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx73_b128_hq128_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx73_b128_hq128_kv1_dqk512_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "c29b8a8bbf78de86cce7a07257476068d48c1bcbc47fbbd6b66899051f07e418",
+  "fixed_sha256": "7f2c8afe784ab2664c6c5713ec0ad4f9e15c0be01bdf12eda97e0f2769097e95"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx74_b1_hq128_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx74_b1_hq128_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "9ad8eef7ba340557641bac92e5a076b1cb0f85cfc3ee99ff4293f4c73e5242d0",
+  "fixed_sha256": "f44b337ec8c6aaae4030cc015fca01cc46f56f83c6285b2b85ef08da1dfe04eb"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx75_b128_hq128_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx75_b128_hq128_kv1_dqk512_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "91fac504b61adf409de60bfea0adb1485165b5a7ab26d99eb773c45e3d6b8cf5",
+  "fixed_sha256": "62060c80c5bbe50ed0b98a373e2fd258016b9424bdc73bfb7093705122ad2d7e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx76_b1_hq128_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx76_b1_hq128_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "af838f86e6bcc1ffe2ee17cf1a154e27c58f244ae96af442e22db2e51a97a33e",
+  "fixed_sha256": "464c757a67306cb1e2c3499bbf248a433f9f4cb0f98c44dc8bb4b4cb57c4c75d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx77_b128_hq128_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx77_b128_hq128_kv1_dqk512_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "594d56236b00e91a666cdc369bc28797dd2759f085461060b2b449df798dbeb8",
+  "fixed_sha256": "6f1e7dd6db06ebed8e937aff38459edd390db652ac52d43695c4a44a362b179e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx78_b1_hq128_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx78_b1_hq128_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "f7886201144d408041858745455b2a701dac5b825367325dab1eaa2f47325963",
+  "fixed_sha256": "bd0c31e83e99a92e2b1020e5d3cd35655ff455b50a1855115297f978d4c993c3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx79_b128_hq128_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/deepseek_v4/dsv4_pro__generation_idx79_b128_hq128_kv1_dqk512_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "871cd431b0a0b4a8b0b490a000aaae1e656a9d027c0e0c68c43e8620b075ef19",
+  "fixed_sha256": "14524769f08eb524675c30bcc3e57055f3b49603f0aa11a77769f80ca53332c4"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx204_b1_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx204_b1_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "b0bfa9011b2050859ba4b94f5115b693ca982a3212f56b53f75ea560041a41fa",
+  "fixed_sha256": "e286e481a86dd67c7b910130ca0b1e75d94309a490413c8b5b90ae81781be07c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx205_b128_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx205_b128_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "e7d7b6d883a28cdab5d25c51e4061161ef0fc4110735d97a11010c87fd3fd92c",
+  "fixed_sha256": "2fbe1d47ca6f7b2888b0625f4807fe601e034b7b12add762001579290acc36fa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx206_b1_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx206_b1_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "631657d5026e35199d90d8b8bdd5ddacbbf85e218bb51a0328ed88ff723132c4",
+  "fixed_sha256": "84fe3de031e0520ac730b9e11a66828fb215b964fc3d9773a6d58faa4539ef48"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx207_b128_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx207_b128_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "2397158e523c1a85849479cf1842ba016d7d59752dcc17e4172d278c34c7d4b3",
+  "fixed_sha256": "01a9dfa5c3c59506dcbfbd3c8d4fdfca8c7027713c437b189090db7314dac899"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx208_b1_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx208_b1_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "67471e8f9d5d17d54b0d972d25e312e120c42977aa95a4ecc0754439d5f182ef",
+  "fixed_sha256": "24e51ef750052fb52ab5fdfeb2a344e2515df89fe53e56ea0d4d421a35b8cbfd"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx209_b128_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx209_b128_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "ae253f5650a754ed0a080f5d1b0f206cb383e4b304a8f2805dfc5c346ec71da7",
+  "fixed_sha256": "82f4123bd748ea3a56e2f7350a0ee9ed8bc23eeb11e6d687372f858cc53d9738"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx210_b1_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx210_b1_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "e8e877a3b32a7fcaf75a4d50a89bdbc7ae99d3632a96584c27ce095a42b062d2",
+  "fixed_sha256": "f47c59ebda55b22c0d0991be973708556803d170d115cc3d31874703bd79563b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx211_b128_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp2__generation_idx211_b128_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "4ae565ade4bed35233d8f01a4084addce50cec27dbba45a2b4e9db29b12a3a43",
+  "fixed_sha256": "649a4eff471424a9bfc4709763a1dd2daac705dc9d526c8438004e8752db6071"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx219_b1_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx219_b1_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "24e22c643e376115b00da11ef09aef441351a4f29abc21c49e1c56ec247d833f",
+  "fixed_sha256": "6cd1a8c2cf1e74845c1969531495e69253aad9346c9c4601646591ee966d7434"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx220_b128_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx220_b128_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "ce8b1ca0f8d15126b663a7dba2fc7fa3f002aed36694967cc9f4e39aa947582a",
+  "fixed_sha256": "a57135db25b9f1ff1c8197436b9693b413516497820fe72f413905a9994becad"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx221_b1_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx221_b1_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "c76d5336efa3864fd9d1c7464d346dfe06b2313c226c4b0b0cb8d5c8099fc05b",
+  "fixed_sha256": "e30a335e3100789d22ce2ad0062a5f5f2c126c54846d3bdf2d10afd3fd6f0a3c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx222_b128_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx222_b128_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "d70d93cb7456fffc9df9ed47893cc55db71bd9020f1e26ce0052cda79c4ea695",
+  "fixed_sha256": "9f14e205065f37be84d8f290c1901171218ac8cb2454963d01ff66d3d0c4a496"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx223_b1_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx223_b1_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "c4bb27165daa87b8210a442f3d58b4fa43ee4b80cfe8b96e4da54ed32db95dfc",
+  "fixed_sha256": "167a6e4a5baeb830ebcf49858922c94c35a1ea9b229246c444c78f1b0d4fa4e8"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx224_b128_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx224_b128_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "5dab6018e7bce8ee854d61d7c652538a7bd5c9d57180638efa19707a90f030c4",
+  "fixed_sha256": "86460c4c858273cc53c3309abb6581399f2f470489a9143f7b19e712690c0279"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx225_b1_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx225_b1_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "8d9985e80ed1ea946b3b038393de8b6697c27176eb26da9652d5e5b0838c250c",
+  "fixed_sha256": "911d11e607aa4a88bdd66cc2537967558a54d4cbe9fed35836d55b773f75ccde"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx226_b128_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp4__generation_idx226_b128_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "4124400778d942bab9bb844a6b6386584679817fa7a2d0b9eda0e8a92c0b913b",
+  "fixed_sha256": "7b4fabed2fdfa7ff7d4691d9b240e44923364e54f1133987df5499aa3b7ed73b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx234_b1_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx234_b1_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "8d2846f3b66e13099f6edef50d1f490e12073155d26da7547e53f63a58a81ceb",
+  "fixed_sha256": "3268ee8ee322df6054e2bf79fee14943d07ba558b26cb8a1875385f0e4faad65"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx235_b128_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx235_b128_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "9773eac937a44509c783a6065443d9371ef8a5ae3d39f30cbb2420d37695d281",
+  "fixed_sha256": "d4c11deaa3ec282712b26b65eebcf6bd13ea25583eb1cdde2b3e41c1ff3e095c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx236_b1_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx236_b1_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "2e38cc5e11dbe547466ae44c79105314645e26142809ad80205cacc2475a3973",
+  "fixed_sha256": "1d476e46c943dcf0f9e71ede3e7dc234ee8381362bde464050cc5ee39f0414f0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx237_b128_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx237_b128_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "e5b265452498d04e74cfe00e1471057a80e8ccee8089bb6202f51d7ecceffec1",
+  "fixed_sha256": "31b74e2e53b2dc928c195e6999211331baecdc05e826aa91ad95d6cf8cd471fa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx238_b1_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx238_b1_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "7ec06f7529ec171f4e9db8c3c5508672cb5277a03feacab9629f35f106894ff2",
+  "fixed_sha256": "ccac3ab31fbadd6494ead55f756aab8e76e7aa0ebb6ff526fefd929ee06b77ad"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx239_b128_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx239_b128_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "6797403993ad25dd3ccc667a1388afa3fac28de17725a3f090a3919ad45fbeda",
+  "fixed_sha256": "81c8b7b0ede78b7803387b18658bbefad03e99139846e8431d45eb319f83e5dd"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx240_b1_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx240_b1_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "53b9a21401af01077863662ce5a73bae76dc37d861d0dae344421eb54157907e",
+  "fixed_sha256": "18344c8486ed4eb050ea0a5bf41016ee0218386e566724cc8cbb0ad75ad425c5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx241_b128_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full-tp8__generation_idx241_b128_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "775cca7516644d0768c4705bd7f0f97dff9c4aff88b30d5e71d6ebe185b3cf0a",
+  "fixed_sha256": "cc9a060d84f3935efef1f6e5be869f45c298dae5597c64ec26242154dbff7da6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx189_b1_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx189_b1_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "5a59e6b2ba057149de1e852f8295b9248cf1376114688dffe7307503b0b98afe",
+  "fixed_sha256": "1634248f18451ddd262b8d1215f76e57da4df534b66e98015a1f8e4d4c5716d1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx190_b128_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx190_b128_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "8a080d68f5faf745e916f171ad31e4d9267d05fedde6a74c24a862e6f16b7ca6",
+  "fixed_sha256": "40c843f6e83b223341a5fcbf1f93632fdd1d18fe713cb3708ab94ef31165bf03"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx191_b1_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx191_b1_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "fd1e9127a6913169bddfaed2b35765fb50f329892d98ecc9ea0f051dcac0ceec",
+  "fixed_sha256": "0933d1b1573f266104a341605a818219483bfe9e88ccad20ea478dc1ea7adb19"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx192_b128_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx192_b128_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "10e6e3771115f74fc5bca2565c6b641a1ec79932d48c292be35db6469b6eef5f",
+  "fixed_sha256": "2909a7af590d11155679a663fdeb50b7d69ca1c322c6dce7970f5f6f1d28e365"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx193_b1_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx193_b1_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "ae77912c2173c7374281880ffa47e6a30079af5c735ceed6600f4b39d331b818",
+  "fixed_sha256": "7bfb1f6a91a90ac44923edeea586c277232be6f241d47942f5724e463c4f5e15"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx194_b128_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx194_b128_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "20f163ec231ef7fa0625ff971d0fd943460bf262b987c46d4f7fbd823806e8fb",
+  "fixed_sha256": "516271ac5e94c55ca3093b10afe8abf33c31c818bbf424dc266b6188bbc61f5f"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx195_b1_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx195_b1_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "3fe124f2c14a0b12d58ede56f1f3d5b6debe15efd7858eb10e450cbd49832e90",
+  "fixed_sha256": "fa66fcc116cd18c5963c4f5ecc9d79234a3c61a223c386a87781f03b67d1367a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx196_b128_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_full__generation_idx196_b128_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "7ed3964649c354de4e6a36711ecfd280a28ddd8504049d1cd95b6a8529940b65",
+  "fixed_sha256": "8731b9580ebcae66ea153250ea035a5ce98dabaa45f8e74e6799b8c68eaa744c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx144_b1_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx144_b1_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "cbc1efb0088e0e8aab09b5fb156fd3d4b7bdf2c3c0437e3ba9fee531880ee453",
+  "fixed_sha256": "ce1ae78db1ccdb5fa5789d1ccce98cbb8b6b6216d8ec0f5c2177e07ac908f473"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx145_b128_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx145_b128_hq32_kv4_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "1195fe3e7f2ec7b9854b1d9b3bf5411ca141e0df360394327c24c94dae0f2bcf",
+  "fixed_sha256": "d6416a0e4e1c7d6c63a7e13d3e8fec2129dddc8917c8fb57f12e684879b4f3df"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx146_b1_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx146_b1_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "c0feb95cdb1acf2fcc63f751f663cdcaee4d5693a696a29d55bd7c365246d5f2",
+  "fixed_sha256": "d519c72c0e67b666820774fc0178c3e75fcf25000430f3db7fd4bf958af5f3e1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx147_b128_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx147_b128_hq32_kv4_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "a438e706bfbcd438ce969330c820f6fa68281663c9c19fef65cc804e52b92eea",
+  "fixed_sha256": "ac3c14a6bf62ed5db1d44c3045681d0791cf86bc94f8fcc5650bea5a8acdbad0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx148_b1_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx148_b1_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "8bff311c1b3a0aadbfe1dbf6c45dd03018f6a5fe0ae7d8e447d0916a0cb29633",
+  "fixed_sha256": "c367fc9314c0bded446f7f159def99c50a10dbfd6e6d386e26bb994e86451060"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx149_b128_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx149_b128_hq32_kv4_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "a225d5a992261f9be29acba1e5ed3e3e66c12831e79ce131519c0cd54497262a",
+  "fixed_sha256": "b52d4b6c0a95b798f1feb0462dcbd326917e834bb28cf3ea67a4559ac8cbb6cf"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx150_b1_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx150_b1_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "1350490ae10ef5b4e3dba109b38423db59a335c34fa143796178ed0d81471f2e",
+  "fixed_sha256": "1a665bbe7ccea5a2af7e375987e08f35995b3090b45ef12913f1010a88530e17"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx151_b128_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp2__generation_idx151_b128_hq32_kv4_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "6348dd000415cce8a41c8a5a4807b476b82bc1ddb4b0f42d6705477f0a942d36",
+  "fixed_sha256": "37ab855d532be37ee9206d61000e111983b994268c43344bc4f07d86fae1beba"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx159_b1_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx159_b1_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "7f3819ea54935490ca30df169764f1f220c7bbc3e78355aa40daa6da537e81e5",
+  "fixed_sha256": "6d5010698147ebb1b7706f2cbcbda2bcfc319b64d1b2f7cc00cb2ba73ad5b5a0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx160_b128_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx160_b128_hq16_kv2_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "5de5d00b9068940c5e5822d7664e252cc340603dcf13c09acd85ef8571b65b47",
+  "fixed_sha256": "9e87b3705a7d80f626240aa28c4e89abf50dc6d62ce081d6b6185243559f326e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx161_b1_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx161_b1_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "9d67e3d4212db2a5df22c37d017bff312184a782256148b1709950d491ca8299",
+  "fixed_sha256": "5b5cbbd757e4acc79ec9e66ef3196ba607ae64f789f1582ddf2d7715df509426"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx162_b128_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx162_b128_hq16_kv2_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "b139267f0844ffeaae6d7f0ab3df049e31cac5d76b6fb4b781407346b3103843",
+  "fixed_sha256": "d41639537876ec3a1acc4ca3ea56f0b91590c1bfe7d5ddca5ce2e801c8eaeda1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx163_b1_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx163_b1_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "09936d2c7d54874fcd5e66bb88de327d998ef82ec29689095a7c1256d477568b",
+  "fixed_sha256": "436a2a5f9e2484bc183f8fe68155c744f8d1b2e8bae925a208c84c68bc0f518d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx164_b128_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx164_b128_hq16_kv2_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "997dd29ab2fd2f14bf9c14debfb89a7a13ffb1139b5c507d00324d2b3e5cf461",
+  "fixed_sha256": "d4f326a59f1276a7aef0ebc255bd9d070814c17dd03ab69fc2620684414a3880"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx165_b1_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx165_b1_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "4d270d1ed26c18710f26e4141caf3551c4e999a0ba3f013ded3f1a5b431da23b",
+  "fixed_sha256": "cbf63a462091121f0dfc60e9477d26415a41f2eee0b0e441affbaca0b3557830"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx166_b128_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp4__generation_idx166_b128_hq16_kv2_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "c8c42d19b1f2648fa5dff8e7f6dcc4deabcf2af68b0945910074095e3aed5676",
+  "fixed_sha256": "8ea922528e7ee92cd4bd006989bbc7aad98a4ff4c32c21570985a7b55724c385"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx174_b1_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx174_b1_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "97d0fe574b8e99187f40d56807ac01ebdb992859d49f7b3f8f91d38ab885bf5d",
+  "fixed_sha256": "cbf323815702f3b50f29e502e721fd6ba6dded87440bd199aa177e9d42f6063e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx175_b128_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx175_b128_hq8_kv1_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "8b6d2119ae759f49bae46c897f7d57c8645bd5045e3fe8fa64574d8f31821a31",
+  "fixed_sha256": "d97584be3dd7ad87d15af8a560fc95a2c9f079d5996d9a81078acde9e63f8499"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx176_b1_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx176_b1_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "d45550b5f02518dc6d38f4757c8dc1a298d281e4cae21d948db4ba976a1f908b",
+  "fixed_sha256": "5a0df920d8be7505f9d1c1fd577c060f6f7b93080b81acbdb70d21f004f49b1a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx177_b128_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx177_b128_hq8_kv1_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "e15ba5d542ee679caa0db197785fd75a18d733998f3cc5c554a84f15f08e283f",
+  "fixed_sha256": "1ff888b1737883aba97a5771c783c0101e35a47f0e22580113ac11a15224d7d5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx178_b1_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx178_b1_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "a66a8b90845a5987b15e07392c4b276b0791677b49e972c43d74e65d7794943e",
+  "fixed_sha256": "7014548105e29336ccaba978d11bb63557d5664b187116c61089135caea9e2d2"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx179_b128_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx179_b128_hq8_kv1_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "64422065ec0a64a0df9da14702198dcf28744f5bb5f002f6abd88f34b9e0238b",
+  "fixed_sha256": "9f12592ba5ce530b34171d821ed432083b135ae1f2d560bb7fc7929f3313c833"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx180_b1_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx180_b1_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "272f9671446df95f7791b6baf508c783d481818c8bf1b8be60838c9a006ce5e0",
+  "fixed_sha256": "1f0cbdfb59423c29ae5e2a6a07e8410062b39bdbbb9c49ba35acf71608418c1e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx181_b128_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa-tp8__generation_idx181_b128_hq8_kv1_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "39dc5bca147c1217b5e926668f2681cc1603bd8d20a545f0bb32b34865fd88ba",
+  "fixed_sha256": "890b1cecc343e88f7173f8973557ac7415c1e164417bf716e6b5177bf0823764"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx129_b1_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx129_b1_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "bf2e05c97fd1861bca04d80ecc740adc8582887e5b6b44c0b04f0e75f26762ef",
+  "fixed_sha256": "79578b2c26e2064d8b5a64f455be4339aa1f52792f46a9c0bdd24db63d18f1d2"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx130_b128_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx130_b128_hq64_kv8_dqk64_dvo64_sq1_skv131072_causal.json",
+  "original_sha256": "4289710684d6e591a7e1003070ed3538f45d39129bd0cc8f46c01d8637a25593",
+  "fixed_sha256": "9517260677878475bda81070e24f4a5c0e492135852c9636bee33fdcd3875812"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx131_b1_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx131_b1_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "9bbfb1548302c81ff8c23359f52abdc7e1849db4233bbbb82c70855001714e76",
+  "fixed_sha256": "35cf9ad46dbced0b5e5e513ba44a9065e9892f8e079ef7482acc30d06ee80e0e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx132_b128_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx132_b128_hq64_kv8_dqk64_dvo64_sq2_skv131072_causal.json",
+  "original_sha256": "a4431e00f47fc5d4301281e02941fc161b80b69bde8f13d13756554b5ba0a312",
+  "fixed_sha256": "78d3419482d56a089dcbfedd22203472e34776cf586896f358149c548054407c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx133_b1_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx133_b1_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "bd0dfb61e2f324c5b70ae8dcfa9aeff8973260378b75500a7f11b37bef44a0d8",
+  "fixed_sha256": "2d71ec01a7cf6960238bb06339b884e18db4ba1dd4212f603836ab7fd19393b5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx134_b128_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx134_b128_hq64_kv8_dqk64_dvo64_sq3_skv131072_causal.json",
+  "original_sha256": "c47eed39289da7b0aca8926fd6c9784a09d1590e2d73375a0e1e51db57621d2d",
+  "fixed_sha256": "8b1bf8dd65f580028b030a58335a3c4d64c25ce33964c478875e5d988c32a1d3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx135_b1_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx135_b1_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "afe4d1fc1bfd5de6f4ff0b257916e1697e64e5fef9f28e17e4fcb57aeefc4cc1",
+  "fixed_sha256": "f2635c320b4b5f02985a51d7c929a91c7c564a6115955f29a769d03f561cab5f"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx136_b128_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/gpt_oss/gpt_oss_swa__generation_idx136_b128_hq64_kv8_dqk64_dvo64_sq4_skv131072_causal.json",
+  "original_sha256": "d21db97c56d8e06fd66e610609e23ea0fcf4639368389709ec886268bd9482e2",
+  "fixed_sha256": "2db75771f8034a81fe8b150bc04617bd5ca06a439c4dba99c8ad538ec1ebff6c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx264_b1_hq48_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx264_b1_hq48_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "3635ad76f646f50acc49e17437a76f831eee5152fc3a10503a542cc2740b0a92",
+  "fixed_sha256": "ec2d6f2004c5e277a8215c34cdceccf1cd0e2c1cf0975a77d470cae7f5d48bb8"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx265_b128_hq48_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx265_b128_hq48_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "f1db1147f9a714ea3e17ca778c6eeff6c69feea4c29b00dfcceb6b7b71ccf23e",
+  "fixed_sha256": "b0e8e8b8eb2e31ffae56568e454eee84851962ec6fe595626d1989bf1a5ae418"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx266_b1_hq48_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx266_b1_hq48_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "3dbe9b594faf69458602b41f0cc5e05015ccf769576db76c46c263d30ba3bf84",
+  "fixed_sha256": "836f738e1a66e50b033df219bb0ce4fdfbef67d2ddb6752dfc6eb80feb0b5f24"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx267_b128_hq48_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx267_b128_hq48_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "6e9b65725667fba7a5c92b5f09be0aa13a7be7c59226d2901e64341009b3b19b",
+  "fixed_sha256": "f21c1a2b3191991c9b42d86429d0dbd7a8fd645f9b2ac6bde8f069cca53526dd"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx268_b1_hq48_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx268_b1_hq48_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "70ab2f0a4bcad2dc77978dc382399fc8361a9f4427cf85e6846e51dc68b03670",
+  "fixed_sha256": "38bd59c938551ac68d82141a632e21e16b9990fbe1e2143d53a720b3338d56ec"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx269_b128_hq48_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx269_b128_hq48_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "a5b2d80d47cb39db0821d3494a05739a27872068743db437b58d1e859f2fae6a",
+  "fixed_sha256": "a43290b947dca814bfa7b782bc431198131b7df63b16c468f750f3cdf7a5cf2b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx270_b1_hq48_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx270_b1_hq48_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "43af0b56e78997ad3ccba6d71911e4b627fbf7ac04404ebfa24e026cc6178e96",
+  "fixed_sha256": "ddc23d692af61507b99330bf9d1cd26f2fec711df282c7d3a71638cc1837f474"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx271_b128_hq48_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp2__generation_idx271_b128_hq48_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "927e61e22f6d40805174fb2525b67fe8c994d0e4726f76dfb2d3e0c6707f8b59",
+  "fixed_sha256": "bce002083a54ca5e8926605872d60346926ec3922b4e9606c1c8b451f5e48153"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx279_b1_hq24_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx279_b1_hq24_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "9869b8ff58c15b8f372f89e0b5ff8747005c8c3de18dc2d6595bbd332c95bd35",
+  "fixed_sha256": "ac5c9328ff3697a4a5af3a220b73a0ec1c77c6ecd134b73c8f7443cf7efc2b1b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx280_b128_hq24_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx280_b128_hq24_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "604a107a539db6b7b21a241f6cd3164d46ef84d5033873fadb26ef086ae72b1e",
+  "fixed_sha256": "4aa3f27e315ff7a81372415f569b1aeac8f96e90e9b98fdc9b76e550cfe78979"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx281_b1_hq24_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx281_b1_hq24_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "312773d4687502c93694e51fd3240c26d3ec67585a1735ed97f992b35f41ca7b",
+  "fixed_sha256": "d07e5ef96e1fc22e16c2549e48c11c05cf6ca9e3b8c99b6a062bb6d23d347fd1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx282_b128_hq24_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx282_b128_hq24_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "f9665ee914a8dfb4bd4efdaa5c0d06560d4d442a387f0d4d46e2d15aeab16c2d",
+  "fixed_sha256": "64a39b291196d7b673a62686744bc9cc44b51b21c301d1fe425ef4bf4bb7f3f6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx283_b1_hq24_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx283_b1_hq24_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "00fc3c95507cf32598096679ab6636c6fe2ee2cba3e420b7cf887f5dbf8f5b69",
+  "fixed_sha256": "d3b1db8a6ec4033b8137f4d5f3fc78f499f5c683d7c7cbd7194aa75a2699ae95"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx284_b128_hq24_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx284_b128_hq24_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "942695eed7a587b8f9be0f364ccd9c98827424785a3fdcf42416dd19eaf9a8ea",
+  "fixed_sha256": "9a8d19ae653d5072c67a9823ad1da773dfcf3918a4bb108a5142743ceb0c93e4"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx285_b1_hq24_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx285_b1_hq24_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "00e025357ad4b0e66c66a08d477657f4b2aba58898f3a59dcc5ecd059eec56e0",
+  "fixed_sha256": "4ec9dc1696544149f9dd109cf44b87e44641c9f69ea2397d2f58bfb73f680f4b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx286_b128_hq24_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp4__generation_idx286_b128_hq24_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "60edf1622ca4254da0561895e5c71f89f90c747bde1a7efc0166b8c0a79077d8",
+  "fixed_sha256": "9d6b783002f57f86d2d595584ab69a232ea672a505454865eabafbfec5186987"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx294_b1_hq12_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx294_b1_hq12_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "b122719bb0d2aada98a05ada15f10d2e1fceb51f0f4a49b59be33ebb03aa4b96",
+  "fixed_sha256": "28e0d519eb6c09d5984b645e60915cf41614bbd56b89d80826a670981e9a65c7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx295_b128_hq12_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx295_b128_hq12_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "840be719f4d80618cff13afd6b43155a2bd6c08fca57ed4e1ed024a5b5aa5c43",
+  "fixed_sha256": "3541102ad6aba72a0bde4f55a3163e78f7f367f4c7548c432ed27095529fa4ca"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx296_b1_hq12_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx296_b1_hq12_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "086e5af7dcf13ab3619d6983a9f987062aa7e5311261dba9b860ce42c6bd3f42",
+  "fixed_sha256": "9363af6e205e41abc964f5aa1811e15b32c728194097120e287c21c99ed0ae95"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx297_b128_hq12_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx297_b128_hq12_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "44289ea1f9498acc44961ad5cca1027f46f79da951ec2b75fb9a6e499d89dd67",
+  "fixed_sha256": "aa724d88f6a01281a4559e87be7a819c613b19a0600747f6c408af0b9c7cd880"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx298_b1_hq12_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx298_b1_hq12_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "f693cbe62a27339fdc065a6b950e5b133fb62aa04efdbe47ec4af162cc5c2222",
+  "fixed_sha256": "9a8e6f32fd50e09ca58868475246ab7eefa4ebaa1157a533238ecedb56dd835a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx299_b128_hq12_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx299_b128_hq12_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "31d5e49b1845eae3c324ae2660be576e123222b7191cae2cc7d36467c204267f",
+  "fixed_sha256": "2f79d4ba4a541c31206301b9aa12c60f460ec4332edaa62f94b298036e96d97b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx300_b1_hq12_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx300_b1_hq12_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "9de7f5c0560062cc6f1a2d572e1afd4385bdb1f31665ed15a92b668deb81bf17",
+  "fixed_sha256": "06f166dd70e7cbac362a60d2d3ae65704c1ac66ffcce3c561713ae1ca2b97314"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx301_b128_hq12_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3-tp8__generation_idx301_b128_hq12_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "f32e70df0659f83fa9c60899e2ac5b4c53f8155dae62a25bcce0d34900aae411",
+  "fixed_sha256": "677a369e18bcbb211a403078a66cb8ec1f1060a8d5a46f73396ea59e32e556ee"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx249_b1_hq96_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx249_b1_hq96_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "1886a7523efce98c5d44a77c132512c00b7c94751e86ddca0e33b3e1909c7bf6",
+  "fixed_sha256": "5eb62238b6bb8a802dd5ccd5054a79ef72fa763252fda9f1ccc67f24bf862de3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx250_b128_hq96_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx250_b128_hq96_kv1_dqk576_dvo512_sq1_skv131072_causal.json",
+  "original_sha256": "cb0e1cfd4156634c7d756d87964dc4690649410951f72e9af3fd2757e8797ea8",
+  "fixed_sha256": "bccb46f7f7723cfe4d4263f7040878c655726ca04a23b5e9de92f6338a5fbaed"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx251_b1_hq96_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx251_b1_hq96_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "6fcc1ae3a5075c209b1625dd95789415a84ade345b09a40d55f3a7f950d8eb51",
+  "fixed_sha256": "ef36608c944b9337d62d0af856b8521c4246d4bfd8b6a22095424c1e6ffd7eab"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx252_b128_hq96_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx252_b128_hq96_kv1_dqk576_dvo512_sq2_skv131072_causal.json",
+  "original_sha256": "87eb8545648f7f077ba234ce6848d8d818e4998f36335799bfa6bfcbc5113c72",
+  "fixed_sha256": "abdc6dd4c733e9113a45d4311874dd74b162bfea1fcea38344d4b911f3ca3f50"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx253_b1_hq96_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx253_b1_hq96_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "783e7d49c59d379b9d2aceac090d50a9028546914f20779b4c6e2895832e6053",
+  "fixed_sha256": "6b254873bb5f49fee8253b356441b969e0afb6fc7801cc7c0726161aff98b04d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx254_b128_hq96_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx254_b128_hq96_kv1_dqk576_dvo512_sq3_skv131072_causal.json",
+  "original_sha256": "a081c3f21ee9eca8a2e92993c97b5763e280ae020f613412493845301b6df356",
+  "fixed_sha256": "95510a14145f9625bd1730baa5a0dc4eac041ce1b302f6305c23ffbcb28f04d0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx255_b1_hq96_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx255_b1_hq96_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "fabbdb728476965728d9c5a6f44c4db90826d4c2d83008d0b539e97b572a34b8",
+  "fixed_sha256": "1f570e128b0d609d4bf39f3d660d54031ef46c26c4ae18fb2e728995c6db3fc5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx256_b128_hq96_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/kimi_k3/kimi_k3__generation_idx256_b128_hq96_kv1_dqk576_dvo512_sq4_skv131072_causal.json",
+  "original_sha256": "0918e4d44743d79c6e859614ef3ba3a115a815b6a43298903d4fe679a38677ce",
+  "fixed_sha256": "cc38d73cf1e691848385f8709ff0dfb6b13b01dd532ef2324c325d23fe9dfb0a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx324_b1_hq32_kv4_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx324_b1_hq32_kv4_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "b554b30810fd3ea95e58d7c72515419de45937646e4b1db287756d29c3371f24",
+  "fixed_sha256": "0408f843043bf263428654d75a0bf7a84b1eab8fc2b0f972c46586bcc2a10e0a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx325_b128_hq32_kv4_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx325_b128_hq32_kv4_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "64a4b810914b8bb331cbf88c7e9e6e454d4848352b3c574b0f380ab60d58b0d8",
+  "fixed_sha256": "17f7c7a2bbadeae5f31e9efc8652fc651d890ccebf8be2ed16b07269ae2caede"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx326_b1_hq32_kv4_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx326_b1_hq32_kv4_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "0d67cc4ed58b1370998f9380a3ccf8bb2b2f63cb81c1a682b3cf927eece3e716",
+  "fixed_sha256": "bb00404d176b5ce21744b88cebe3af80c5e23e77c1040ade41cd66e09b24900b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx327_b128_hq32_kv4_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx327_b128_hq32_kv4_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "696c1f6852f7ef898edca88f505f5fbb3fc562bca4582099b6a2873ba311a62a",
+  "fixed_sha256": "59586fc0bcabadf8801beecf87f97a80514f92be63f45c6b377b9094938adbd6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx328_b1_hq32_kv4_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx328_b1_hq32_kv4_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "5a04976eae8bd331125993a348bb26444a1689043dc584590d9f7b12b426ecd3",
+  "fixed_sha256": "4d8160d427005cabe2660fee8ee81016af01e383b9c964289a0af9606072f463"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx329_b128_hq32_kv4_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx329_b128_hq32_kv4_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "39b436e928f74830600f1cc6585afdcc941f2338af88bd7306b8bb091dd5d522",
+  "fixed_sha256": "8d12ab9a75b2978c947a10a0c15b9fc269b070c901bd91447833196f4eaff5a6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx330_b1_hq32_kv4_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx330_b1_hq32_kv4_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "9d01d5494d5dfa68693c460e55058e9cdba2411132c30931b7fa1b7d27ff32b2",
+  "fixed_sha256": "9392454409cea4399d9ee4e8ffc88a406c1ccf14d811bd9c85f42f4f2c7633b1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp2__generation_idx331_b128_hq32_kv4_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp2__generation_idx331_b128_hq32_kv4_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "e04e0084cf46e916eb4b7a09c64cd5328a37ff1bf171da5b3b83f4dc18b79837",
+  "fixed_sha256": "934168b55fbdf501c4cea4a738f528c95bbd97a88beae8caa2567c8f2c395d15"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx339_b1_hq16_kv2_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx339_b1_hq16_kv2_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "2923137dfd5cbe1f9c6a50bd0bc44739d46aff558c57bc12f45b7a9af440f786",
+  "fixed_sha256": "15f80e95a2ee06e567edd20e787cbfed2063ece2f09fe4b8167c41ca0f238bc3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx340_b128_hq16_kv2_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx340_b128_hq16_kv2_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "85cf1964a50c2fb75be996af30c1baecb612853d69b4a1005c892033797ac110",
+  "fixed_sha256": "3610a66f87227a494818b3970ef0b9f6344b7ba5aad8ee2742386c5aac52eae1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx341_b1_hq16_kv2_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx341_b1_hq16_kv2_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "42611498cdc4829b4e2b3dc57b43b1a43b260b986ecb7e2d92c55cb2f47aa9c4",
+  "fixed_sha256": "356ea688fcc745ae9531f0de962b07880bcf8f3728b7db4d846e40432ce28e8e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx342_b128_hq16_kv2_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx342_b128_hq16_kv2_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "925eb2b55cb5278628841b49b30be076b1e596ceb675f54a6e6cba3e041434d2",
+  "fixed_sha256": "fa35a48a5819f349806871a2957672e7807e9967a846fd5b46f5851f8bfb020f"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx343_b1_hq16_kv2_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx343_b1_hq16_kv2_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "9545acd8a0ffbe19790181e9336126a47baeaa1a8f3d88bca981f5462f280f87",
+  "fixed_sha256": "9964d68b7713475bb5a352780b860cbea904bb9721f96c799b33fcab9da6c6c4"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx344_b128_hq16_kv2_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx344_b128_hq16_kv2_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "9678b635253d63b9c7b875387beecfe8a03d208cb422e4ee88f7bae451e51ac6",
+  "fixed_sha256": "1cf6f74d115713f432f414b14795eb22894f3414d80e8c3092b778c2c08b9aa7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx345_b1_hq16_kv2_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx345_b1_hq16_kv2_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "ab775ee11622b90a45edd29be9e1bc88d2a8a0b1175cf2b1b441d21c1bc9a5a1",
+  "fixed_sha256": "eb1cc8cc08b631fc9c026f99710dac00649d3f5c7424a503332792187a16829b"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp4__generation_idx346_b128_hq16_kv2_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp4__generation_idx346_b128_hq16_kv2_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "0c959c7590db938d80bfb0aa4bf83018908fb218745ae3fd40eb49e122ceebf3",
+  "fixed_sha256": "578c485567c2f54b240188d30673f49515af3f3153ce0baff11e91019398a6bb"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx354_b1_hq8_kv1_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx354_b1_hq8_kv1_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "9df1eaa74a1071e0cb4e073532d8b17b3746e864f484376c876ddb2339fdb1d9",
+  "fixed_sha256": "94ea8664b9a186b815650d131ec01a60bafbed8510fcf0a5e0087002f2c6d32d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx355_b128_hq8_kv1_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx355_b128_hq8_kv1_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "59021112a574b5a10889f310654b43038793cfbe16dcee0a79a01d20d5fee7c3",
+  "fixed_sha256": "7e320c52ec6be03eac9dcd4f01497270881c0801deaddefcd275e5855b3e9dde"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx356_b1_hq8_kv1_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx356_b1_hq8_kv1_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "35b6c17f3749ac3c805a9c3ce171a1107e2f6db90f16d2a434bb37c93aeb4106",
+  "fixed_sha256": "6fda8b25845cb4a6ce35186ad93d81a5f4b22286846fcf65a6cd56d7e19e6b07"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx357_b128_hq8_kv1_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx357_b128_hq8_kv1_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "7eee9544b42759abf84e9a6ae9fb9c18dce3dc3a9b8344d2bc5fe2fd67ccd81c",
+  "fixed_sha256": "f2cb5e9ac0590f1c1bad6ec203442ab310cfc0e0591e5f32e0eb8a8b87bc810c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx358_b1_hq8_kv1_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx358_b1_hq8_kv1_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "df91721e61af53112b056fb0cafa32638f248835ff8f105db4c1b395d1610490",
+  "fixed_sha256": "dca6236435051b0b88142fb7b89aa4ff3d1d5273d03d98ca1dcca863b23406e7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx359_b128_hq8_kv1_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx359_b128_hq8_kv1_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "956b8794b763c7864905220d4ac254a8d86eb11952789aa29092635015893603",
+  "fixed_sha256": "bbfc1fcd08b06d7be0581856975a9ed192ddc7da56fdacaf9eef816e13424215"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx360_b1_hq8_kv1_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx360_b1_hq8_kv1_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "d1f4855e7cc37735447881cc5061ffe263a6c23b73e9601e14c0d50d6410da8c",
+  "fixed_sha256": "da60d6ea5b54ef96aceae89127bda014df21e2377a9d5f34eb22db9ae0ab5e31"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1-tp8__generation_idx361_b128_hq8_kv1_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1-tp8__generation_idx361_b128_hq8_kv1_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "22056255f5a45d01b90ced1a586f1fb03926fd67fd935480db0ac348b66b2c53",
+  "fixed_sha256": "b4282794eb8e45df4edbcc45d0272ed868bfdf9edb218ff1d4f3a97823d4680d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx309_b1_hq64_kv8_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx309_b1_hq64_kv8_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "8bda16b9a76894871831d71705b8d5e4364a0614c78e12bd88d4b255a45f56d8",
+  "fixed_sha256": "4cdc9a0b22a80d480a368b55a6be7d4ac18506dca013bde27c5e9e643d8537bf"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx310_b128_hq64_kv8_dqk128_dvo128_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx310_b128_hq64_kv8_dqk128_dvo128_sq1_skv131072_causal.json",
+  "original_sha256": "3bd8bc6f2383117068f4c1b759e977f079606463180635b16cf31cd7fdec7d6f",
+  "fixed_sha256": "cee4173b05bc840d183add999df67a58afbd007e935e52cc8af85f9cbce1af9d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx311_b1_hq64_kv8_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx311_b1_hq64_kv8_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "14c00a378eb2ecc19d57deeca5956b302deae7c75fbcb8922b8c35854837f92e",
+  "fixed_sha256": "f9fd752e5e0a0633964e8386595cc0a543bef11f6aa6cdd680759dd550382e28"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx312_b128_hq64_kv8_dqk128_dvo128_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx312_b128_hq64_kv8_dqk128_dvo128_sq2_skv131072_causal.json",
+  "original_sha256": "755886ab9d70f229c62b9f5f8c833d16b567a494aaf8b819fd853b15ed8ca178",
+  "fixed_sha256": "28adca41c27dac3fd51e52934f75df948af1252de8b590ab996ec8c3db491717"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx313_b1_hq64_kv8_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx313_b1_hq64_kv8_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "b5569fbd1a71fc59f31580c8ee372402579356a4eb93c6973a7c612323051fbc",
+  "fixed_sha256": "906fe7620ffcfbd68f3977a0cff20337223581639f408c4909bea18bce9ab201"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx314_b128_hq64_kv8_dqk128_dvo128_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx314_b128_hq64_kv8_dqk128_dvo128_sq3_skv131072_causal.json",
+  "original_sha256": "24ce64048eee513c66833965b18458686039bebf06b8de6b0b697c2b78ea8af5",
+  "fixed_sha256": "03b7cda8fbd57b101213328764964194d2e8f983b2765dd5f70a77d92858a87a"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx315_b1_hq64_kv8_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx315_b1_hq64_kv8_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "1ec65d7e8d10820af8735280089c9e8799e667db0347da2e82a0b7d6e9d6ab8b",
+  "fixed_sha256": "f68ce60c09e9bb765eb46568ca966ebd72baea514397979fcd902b67d35fc68d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/llama/llama3.1__generation_idx316_b128_hq64_kv8_dqk128_dvo128_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/llama/llama3.1__generation_idx316_b128_hq64_kv8_dqk128_dvo128_sq4_skv131072_causal.json",
+  "original_sha256": "9384e9922d60cac1e714c2562d2ffc6f11ada99a93591f862f601748588b0362",
+  "fixed_sha256": "24c49caae803b382b5a527132d0476d2af7b6f176b8805e5a00b45bc9d5c201d"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx384_b1_hq16_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx384_b1_hq16_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "b3cef10d438f6d66fb9e12a0fe4a19dd452bdbe5ecc3a92ec9b189c9965c5234",
+  "fixed_sha256": "330f10e8948260695d92de00f9d6256e3220e0634503379a8427cffac9fce1b6"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx385_b128_hq16_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx385_b128_hq16_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "bcbc862dce62d8821d2cce04dba47eef6bc67d51d35a3ce3d3e1ba1ce2e813ab",
+  "fixed_sha256": "78022f9cc2d0862a1f183a6ecdfdf7e61a85da6c2f4e0cd2206b73afddf98410"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx386_b1_hq16_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx386_b1_hq16_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "18dd02771beec03f4be72d1656019f78ff79627ed8b7fb75641b437bfd541dfe",
+  "fixed_sha256": "9240d783b210feecd9593121aed3e147261924c4de7b730e17b6a48ccb0e6882"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx387_b128_hq16_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx387_b128_hq16_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "b735546a19a5f13d0fb291d19782745b0c0d346898e338abf44b9e26e1ebb7fd",
+  "fixed_sha256": "3ce31edfb5f4156cdd548f184fcf3d35f27c93d37c50bbd8921b0a7c130c736e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx388_b1_hq16_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx388_b1_hq16_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "a823dc81ae6997ebb68e448d092ecdbf4dbb8d5574a1c95b327dad837b58f482",
+  "fixed_sha256": "a3ebbec36081248780c085760e012836406cb46df4ae06980238b86962bdefa2"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx389_b128_hq16_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx389_b128_hq16_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "df2c0c5740466d138575b5c9eba0fbf057468fb9658f1fcd52edf29be023a572",
+  "fixed_sha256": "02eea6bbe625377287a28ab490a23b24809d3a586687be0b2ca05ba09d314576"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx390_b1_hq16_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx390_b1_hq16_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "fd012a605c0aaebfeb6dd1553c5d60ea8daa718b2f4abb0f892c0a395520fb29",
+  "fixed_sha256": "f81261f198ec444b4f94e4bce886868b6ac7c32cfc7b6102d3222608b2b4f833"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx391_b128_hq16_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp2__generation_idx391_b128_hq16_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "402af2675b8979315180c8afdc6fc095b11c86f1e8f694e3c81deeda5899362e",
+  "fixed_sha256": "73855835f8f1f03ec9dc9a770df78e5469a9f9003d5eae8f9d0bd7327462a3f8"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx399_b1_hq8_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx399_b1_hq8_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "8f22135678fe703ee33719dc2542d837f27bde4f412d1376fad84850bd8940e9",
+  "fixed_sha256": "1b7cc8a42d58000c42e0cde66e2a4124d3a2787c9d23aa23073fe2c9796f1585"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx400_b128_hq8_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx400_b128_hq8_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "5ea383248b45d759ca5b02f2c57932b52429da84622e63123a61bdda8eb21e3e",
+  "fixed_sha256": "eee0c257ff7afac6d354edf1d377987b49cf4f52d53cb0e6829e7a876a35b571"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx401_b1_hq8_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx401_b1_hq8_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "c366e0798a1fc2c2423a1340bf76519170103b7f45e0d4979261a23d7a2e6ac6",
+  "fixed_sha256": "15296d9b5b44a0f0af49be911972d79013bfde0914e6252ac7cceffa77e849bf"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx402_b128_hq8_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx402_b128_hq8_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "d2eabb797af675f8035dfad34ef230c390f60fc6c3cc3c71450fb76e48b58cf8",
+  "fixed_sha256": "24a4a9d2a81b35a03e8bde0d103063ae1bb65e1633ba832ed8311bdfa2a7c9c3"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx403_b1_hq8_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx403_b1_hq8_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "30bc19f8f0a9a8e63f816b0fec79606dbb20a71188b463f7bac425ee5d7cbed2",
+  "fixed_sha256": "6ceb07a806e89994253b9c1183d4d74f8beb050dbf2d7ec1250136393fedbdb5"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx404_b128_hq8_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx404_b128_hq8_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "01cf4d8c9b8a2892930b57be05c74b1767bb12b8074fe8312d8da924d78607a4",
+  "fixed_sha256": "282cd07c25fda381ed4e881d4455081620c962a6547f63a3033ad637e412d5b1"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx405_b1_hq8_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx405_b1_hq8_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "bbda18fe7f4e63e74af24274ace57d5971269d9bd35f9975d9b6bca96d6ad44f",
+  "fixed_sha256": "0b3d47b1a787b7c2f42628f977a43e82445ab7ed511e47dcf3911a17cc0abc8f"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx406_b128_hq8_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp4__generation_idx406_b128_hq8_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "5b9829b3229b460f9e27993c1e11714abf7a42cbea54c2a9e6e9bdee1060ee2f",
+  "fixed_sha256": "9e828fb05f55efa6889f034aa6aed5e687a3ac8cf8b44eb6ec3b66490e804030"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx414_b1_hq4_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx414_b1_hq4_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "a57cb5c39fa8341258a1e76b335373bf8a261b858fd514af1816eaf6f74b62d8",
+  "fixed_sha256": "d397999d50e94b88babea3c6a672b54d51f69f20c28e0a6866bdc98bc69b84d7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx415_b128_hq4_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx415_b128_hq4_kv1_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "bbc4ed9c4bd7281931fc98a3749e3fce7b84b0f6a545aeb6edbdf09914afcd97",
+  "fixed_sha256": "42e72e7222db7727f05c7003d7f0b73a638524de001f1258b26ae8a3d05633de"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx416_b1_hq4_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx416_b1_hq4_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "b13cc15f382cd45d899c1436155d09d072f6dfad4dff3014849012f98f3a153d",
+  "fixed_sha256": "35f96f7986922c7d71c4ed5c68372d9ccdd10636cdb9d0b457b0e15ed66ccc88"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx417_b128_hq4_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx417_b128_hq4_kv1_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "0824033065993e92723024709e5e97f5b31126ef00ed70ad504ab6b09ebb1d0f",
+  "fixed_sha256": "3582c8ac2fcaaec1ca06a8b5d8c9f36b588aa2fc03fbaa9a746603f04e25dbeb"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx418_b1_hq4_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx418_b1_hq4_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "370af77dd2180bbc0278f7469db3a6433c46d505cbc48941bf2d22a2d8e16c40",
+  "fixed_sha256": "801a01f5c57f140fc9ee01e80a91afe76cd91accf5f9d37eabd459224c8cd34e"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx419_b128_hq4_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx419_b128_hq4_kv1_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "4360f560b729a12586c9ae409466fe0e61e2aa32f366820822b0ef444dc9c70b",
+  "fixed_sha256": "f31741a20e91a4af5e6025ac138d1b68a40ad597132c9db705f0d8fc7f114b75"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx420_b1_hq4_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx420_b1_hq4_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "0721791cdcd103cde02a0e7e273a57fcdb93b4cc0503bc3bcfaf7635ca94c2f2",
+  "fixed_sha256": "4862a60f7916e9822b85084a7bf0af1414edf47510ce031abe7665d2b7cf0f3c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx421_b128_hq4_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5-tp8__generation_idx421_b128_hq4_kv1_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "bda4fb86a8c1f81c4a1a4be818f91d730c12a16967f5ad404a48dfdd13303c3e",
+  "fixed_sha256": "54d0606a2a00e91c83e1a6ce925e815e3723bd1785920c6e0cb3de8d16855b70"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx369_b1_hq32_kv2_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx369_b1_hq32_kv2_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "33f906c4d44d1f661f90d5b444b63e68224479306e806adb3e45a10dea0645cb",
+  "fixed_sha256": "953df33ebd72b92f27b250f8b8c0af23b6496434836a569e18dcc10458c8f27c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx370_b128_hq32_kv2_dqk256_dvo256_sq1_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx370_b128_hq32_kv2_dqk256_dvo256_sq1_skv131072_causal.json",
+  "original_sha256": "ced7cb9884bf85cf5a9fefbddd4abccdf5253eb3ed6acd4df4bd071e53102acf",
+  "fixed_sha256": "0e1e513e87cef3d34d17e9283baa3fd77bd1550946b8cba35f8b70f78e8a18f7"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx371_b1_hq32_kv2_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx371_b1_hq32_kv2_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "e1672e8c6fdf22b36c608d1318011291db1a38bac09ec595a5e76a1b74cf7228",
+  "fixed_sha256": "b36f133bb055b7316da2960cb609b06e7cb861a38387306c097b5c8e4c436ff0"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx372_b128_hq32_kv2_dqk256_dvo256_sq2_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx372_b128_hq32_kv2_dqk256_dvo256_sq2_skv131072_causal.json",
+  "original_sha256": "d9ecc76bd622228b130a2d9b635825d407850265cb005ec9e8b848f37258f457",
+  "fixed_sha256": "00bbed1b1662a9ddd36cb2436beca92e81bb61a59444d8e6b0e1e0116690d981"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx373_b1_hq32_kv2_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx373_b1_hq32_kv2_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "8312ac2ed8c5581ee5442bac55e376267b757943b4cafda43e133b39fb260157",
+  "fixed_sha256": "01dbd985020176fb661ca33953e0f653d030c90c30e6bd1e73614bf04981781c"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx374_b128_hq32_kv2_dqk256_dvo256_sq3_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx374_b128_hq32_kv2_dqk256_dvo256_sq3_skv131072_causal.json",
+  "original_sha256": "6150673356007e4a65eda8e5e34959e94dc5b9dcafd90f748ca67ab8e71e2f62",
+  "fixed_sha256": "ca0f733c0975d16f60d81f66de301bc8b9fa761d5bd748aab41413b2f858d431"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx375_b1_hq32_kv2_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx375_b1_hq32_kv2_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "0c0630842aa6a6add9a82f4add375a25465802da21b0406d5021bbafba1650a7",
+  "fixed_sha256": "1b235965a4c493bf97906cd26b6aca456b0042f570ea6f8698cbd01a03b0d5fa"
+ },
+ {
+  "tarball": "Workloads/microbench/cudnn_attention_inference.tar.gz",
+  "member": "cudnn_attention_inference/qwen35/qwen3.5__generation_idx376_b128_hq32_kv2_dqk256_dvo256_sq4_skv131072_causal.json",
+  "fixed_file": "cudnn_attention_inference/cudnn_attention_inference/qwen35/qwen3.5__generation_idx376_b128_hq32_kv2_dqk256_dvo256_sq4_skv131072_causal.json",
+  "original_sha256": "ae994202b5a55a112ae92a78aba48f474ceb056f65699fa053e94f65c6113ae8",
+  "fixed_sha256": "746d880cb50300ce4cfde91195c4bd8cbaabab9dfd04c8ad0d2f22fef7e9a5eb"
+ }
+]

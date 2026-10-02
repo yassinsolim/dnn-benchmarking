@@ -1,0 +1,173 @@
+{
+  "name": "gpt-oss-120b__bf16_swa_sink_decode_bf16_idx136_b16_hq64_kv8_sq1_skv4096_d64v64_swin128",
+  "compute_data_type": "float",
+  "io_data_type": "bfloat16",
+  "intermediate_data_type": "bfloat16",
+  "tensors": [
+    {
+      "uid": 1,
+      "name": "query",
+      "dims": [
+        16,
+        64,
+        1,
+        64
+      ],
+      "strides": [
+        4096,
+        64,
+        4096,
+        1
+      ],
+      "data_type": "bfloat16",
+      "virtual": false
+    },
+    {
+      "uid": 2,
+      "name": "key",
+      "dims": [
+        16,
+        8,
+        4096,
+        64
+      ],
+      "strides": [
+        2097152,
+        64,
+        512,
+        1
+      ],
+      "data_type": "bfloat16",
+      "virtual": false
+    },
+    {
+      "uid": 3,
+      "name": "value",
+      "dims": [
+        16,
+        8,
+        4096,
+        64
+      ],
+      "strides": [
+        2097152,
+        64,
+        512,
+        1
+      ],
+      "data_type": "bfloat16",
+      "virtual": false
+    },
+    {
+      "uid": 4,
+      "name": "output",
+      "dims": [
+        16,
+        64,
+        1,
+        64
+      ],
+      "strides": [
+        4096,
+        64,
+        4096,
+        1
+      ],
+      "data_type": "bfloat16",
+      "virtual": false
+    },
+    {
+      "uid": 5,
+      "name": "sink",
+      "dims": [
+        64
+      ],
+      "strides": [
+        1
+      ],
+      "data_type": "bfloat16",
+      "virtual": false
+    }
+  ],
+  "nodes": [
+    {
+      "name": "sdpa_node",
+      "type": "SdpaAttributes",
+      "compute_data_type": "float",
+      "inputs": {
+        "q_tensor_uid": 1,
+        "k_tensor_uid": 2,
+        "v_tensor_uid": 3,
+        "attn_mask_tensor_uid": null,
+        "scale_tensor_uid": null,
+        "seq_len_q_tensor_uid": null,
+        "seq_len_kv_tensor_uid": null,
+        "seed_tensor_uid": null,
+        "offset_tensor_uid": null,
+        "dropout_mask_tensor_uid": null,
+        "dropout_scale_tensor_uid": null,
+        "page_table_k_tensor_uid": null,
+        "page_table_v_tensor_uid": null,
+        "block_mask_tensor_uid": null,
+        "sink_token_tensor_uid": 5,
+        "descale_q_tensor_uid": null,
+        "descale_k_tensor_uid": null,
+        "descale_v_tensor_uid": null,
+        "descale_s_tensor_uid": null,
+        "scale_s_tensor_uid": null,
+        "scale_o_tensor_uid": null
+      },
+      "outputs": {
+        "o_tensor_uid": 4,
+        "stats_tensor_uid": null,
+        "max_tensor_uid": null,
+        "sum_exp_tensor_uid": null,
+        "rng_dump_tensor_uid": null,
+        "amax_s_tensor_uid": null,
+        "amax_o_tensor_uid": null
+      },
+      "attributes": {
+        "generate_stats": null,
+        "alibi_mask": false,
+        "padding_mask": false,
+        "causal_mask": true,
+        "causal_mask_bottom_right": false,
+        "dropout_probability": null,
+        "attn_scale_value": 0.125,
+        "left_bound": 128,
+        "right_bound": null,
+        "max_seq_len_kv": null,
+        "diagonal_alignment": "BOTTOM_RIGHT",
+        "mma_core_mode": "UNSET",
+        "implementation": "AUTO"
+      }
+    }
+  ],
+  "metadata": {
+    "model": "gpt-oss-120b",
+    "variant": "swa_sink_decode_bf16",
+    "kernel": "swa_sink",
+    "shared_by": [
+      "gpt-oss-120b",
+      "gpt-oss-20b"
+    ],
+    "mask": "swin",
+    "window": 128,
+    "sink": true,
+    "block": 16,
+    "ck": null,
+    "fly": false,
+    "suite": "regular",
+    "purpose": "acceptance",
+    "capability": [
+      "sink_decode"
+    ],
+    "priority": "P0",
+    "ticket_group": "S10",
+    "use_case": [
+      "llm"
+    ],
+    "source": "bench_cases_extended_attn.json",
+    "diagonal_alignment": "BOTTOM_RIGHT"
+  }
+}
